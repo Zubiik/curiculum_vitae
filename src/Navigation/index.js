@@ -2,7 +2,7 @@ import React from "react";
 import NavButton from "../component/Button/Index";
 import { Container, TextCustom, ButtonsSection, TitleCustom } from "./styled";
 
-function Header() {
+function Navigation() {
   return (
     <Container>
       <TitleCustom>
@@ -26,4 +26,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navigation;
