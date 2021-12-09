@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import HomePage from './handler/HomePage/Index';
+import HomePage from './HomePage/Index';
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,7 +14,8 @@ function App() {
     <Router>
       <div>
     <HomePage/>
-    </div></Router>
+      </div>
+    </Router>
     
   );
 }
