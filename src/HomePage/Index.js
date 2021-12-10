@@ -1,11 +1,18 @@
 import React from "react";
-import Navigation from "../Navigation/index";
+import Navigation from "../Navigation";
+import Header from "../Header";
+import {Container, } from "./styled";
+import Portfolio from "../Portfolio";
+import Studies from "../Studies";
 
 function HomePage() {
   return (
-    <div>
+    <Container>
       <Navigation />
-    </div>
+      <Header />
+      <Studies />
+      <Portfolio />
+    </Container>
   );
 }
 
