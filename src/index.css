@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: dimgray;
+  background-color: #d3b69280;
 }
 
 code {
@@ -21,11 +21,6 @@ h1 {
   margin: 0;
 }
 
-section {
-  min-width: 50vw;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 4ch;
+
+p { padding: none;
 }
