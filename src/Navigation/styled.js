@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  background-color: black;
+  background-color: #1B2932;
   display: flex;
   width: 100%;
   height: 100px;
@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 `;
 export const TextCustom = styled.p`
-  color: #dcb253;
+  color: #5E7887;
 `;
 export const ButtonsSection = styled.div`
   width: 80%;
