@@ -4,6 +4,7 @@ import Header from "../Header";
 import {Container, } from "./styled";
 import Portfolio from "../Portfolio";
 import Studies from "../Studies";
+import Tools from "../Tools";
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
       <Header />
       <Studies />
       <Portfolio />
+      <Tools/>
     </Container>
   );
 }
