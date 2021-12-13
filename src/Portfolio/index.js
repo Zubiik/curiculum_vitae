@@ -21,7 +21,7 @@ function Portfolio({ text }) {
         <SectionShadowContainer>
           <ImgCustom src={phoneView} alt="phoneView" />
           <TextSection>
-            <CustomTitle>Share My Map</CustomTitle>
+            <span>Share My Map</span>
             <Text></Text>
           </TextSection>
         </SectionShadowContainer>
@@ -30,7 +30,7 @@ function Portfolio({ text }) {
         <SectionPokedexShadowContainer>
           <PokeImgCustom src={pokedexView} alt="desktopView" />
           <TextSection>
-            <CustomTitle>Pokedex</CustomTitle>
+            <span>Pokedex</span>
             <Text />
           </TextSection>
         </SectionPokedexShadowContainer>
@@ -39,7 +39,7 @@ function Portfolio({ text }) {
         <SectionShadowContainer>
          
           <TextSection>
-            <CustomTitle>find Water</CustomTitle>
+            <span>find Water</span>
             <Text></Text>
           </TextSection>
         <ImgCustom src={phoneView} alt="phoneView" />
