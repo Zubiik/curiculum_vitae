@@ -8,7 +8,7 @@ border: 1px solid black;
 `;
 export const SectionContainer = styled.div`
 display: flex;
-height: 500px;
+height: 600px;
 align-items: center;
 justify-content: center;
 `;
@@ -45,7 +45,6 @@ width: 440px;
 height: 299px;
 `;
 export const CustomTitle = styled(Title)`
-color: blue;
 `;
 
 
