@@ -11,7 +11,6 @@ import Title from '../component/Title';
 function Tools() {
   return (
     <Container>
-      <Title>SKILLLLLLLS</Title>
     <SquaresContainer>
       <Square>
       <TextSquare>JavaScript</TextSquare>

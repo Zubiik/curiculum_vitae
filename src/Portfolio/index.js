@@ -9,14 +9,13 @@ import {
   SectionContainer,
   TextSection,
   SectionShadowContainer,
-  SectionPokedexShadowContainer,CustomTitle
+  SectionPokedexShadowContainer,
 } from "./styled";
 
 function Portfolio({ text }) {
   console.log("coucou--->", text);
   return (
     <div>
-      <CustomTitle>PORTFOLIO</CustomTitle>
       <SectionContainer>
         <SectionShadowContainer>
           <ImgCustom src={phoneView} alt="phoneView" />
