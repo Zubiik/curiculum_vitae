@@ -13,19 +13,20 @@ export const BoxCustom = styled(Box)`
   background: rgba(94, 120, 135, 0.3);
 `;
 export const TextCustom = styled.span`
-  color: #5E7887;
+  color: ${({ theme }) => theme.colors.slateGray};
 `;
 export const PinkBoxCustom = styled(BoxCustom)`
   background: rgba(204, 136, 153, 0.3);
 `;
 export const PinkTextCustom = styled.span`
-  color: #cc8899;
+    color: ${({ theme }) => theme.colors.puce};
+
 `;
 
 export const GreenBoxCustom = styled(BoxCustom)`
   background: rgba(63, 141, 108, 0.3);
 `;
 export const GreenTextCustom = styled.span`
-  color: #3f8d6c;
+  color: ${({ theme }) => theme.colors.emerald};
 `;
 export const ImageCustom = styled.img``;
