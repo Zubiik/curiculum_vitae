@@ -1,6 +1,6 @@
 import React from "react";
-import { Container,TextContainer, CircleContainer, TextCustom, ImageCercle } from "./styled";
-import logo from "../images/photo.png";
+import { Container,TextContainer, TextCustom, ProfilPicture } from "./styled";
+import pdp from "../images/photo.jpg";
 
 function Header() {
   const circleText =
@@ -12,9 +12,7 @@ function Header() {
         <TextCustom>{circleText}</TextCustom>
         <p>Bienvenue</p>
       </TextContainer>
-      <CircleContainer>
-        <ImageCercle src={logo} alt="PDP" />
-      </CircleContainer>
+        <ProfilPicture src={pdp} alt="PDP" />
     </Container>
   );
 }

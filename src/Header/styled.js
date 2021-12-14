@@ -13,21 +13,8 @@ export const TextContainer = styled.div`
   align-items: center;
 `;
 
-export const CircleContainer = styled.div`
-  /* border-top-left-radius: 400px;
-  border-bottom-left-radius: 400px;
-  background: #1b2932;
-  min-width: 30%;
-  padding: 20px;
-  margin-top: 5%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-`;
-export const ImageCercle = styled.img`
-  width: 340px;
-  height: 340px;
-  border-radius: 300px;
-  border-radius: 100%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+export const ProfilPicture = styled.img`
+border-radius:10px;
 `;
 
 export const TextCustom = styled.div`
