@@ -19,6 +19,7 @@ function HomePage() {
       <Portfolio />
       <Title>SKILLLLLLLS</Title>
       <Tools />
+      <Title>Me contacter</Title>
       <Contact />
     </Container>
   );

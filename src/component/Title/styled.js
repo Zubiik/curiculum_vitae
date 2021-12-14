@@ -1,9 +1,10 @@
 import styled from "@emotion/styled";
 
 export const CustomTitle = styled.h1`
-  color:${({ theme }) => theme.colors.copperRed};
-
+  display: flex;
+  color: ${({ theme }) => theme.colors.copperRed};
+  margin: 20px;
   align-items: center;
-  padding: 4px;
   text-align: center;
+  height: 200px;
 `;
