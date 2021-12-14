@@ -1,20 +1,20 @@
 import styled from "@emotion/styled";
 
-
 export const Container = styled.div`
   width: 100%;
-  height: 400px;
   display: flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 `;
 
 export const SquaresContainer = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 30%;
+  width: 40%;
+  margin: 40px;
 `;
 export const Square = styled.div`
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -31,11 +31,11 @@ export const Square = styled.div`
 
 export const ZoomSquare = styled.img`
   position: relative;
-  
 `;
 
 export const TextSquare = styled.div`
-background: rgba(63, 141, 108, 0.5);
+  font-size: 20px;
+  background: rgba(94, 120, 135, 0.52);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +44,7 @@ background: rgba(63, 141, 108, 0.5);
   z-index: 1;
   opacity: 0;
   position: absolute;
-  color: white;
+  color: ${({ theme }) => theme.lightColors.lightWhite};
   &:hover {
     opacity: 100%;
   }

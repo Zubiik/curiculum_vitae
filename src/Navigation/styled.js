@@ -1,14 +1,15 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  background-color: #1b2932;
+  background-color: ${({ theme }) => theme.colors.gunMetal};
   display: flex;
   width: 100%;
   height: 100px;
   align-items: center;
 `;
 export const TextCustom = styled.p`
-  color: #5e7887;
+  color: ${({ theme }) => theme.colors.slateGray};
+  padding: 10px;
 `;
 export const ButtonsSection = styled.div`
   width: 80%;

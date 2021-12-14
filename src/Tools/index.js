@@ -39,6 +39,15 @@ function Tools() {
 
         <ZoomSquare src={htmlImage} alt="htmlImage" />
       </Square>
+      <Square>
+        <TextSquare>Git Hub</TextSquare>
+        <ZoomSquare src={githubImage} alt="githubImage" />
+      </Square>
+      <Square>
+        <TextSquare>Html</TextSquare>
+
+        <ZoomSquare src={htmlImage} alt="htmlImage" />
+      </Square>
     </SquaresContainer>
     </Container>
   );
