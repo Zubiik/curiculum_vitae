@@ -7,6 +7,7 @@ import Studies from "../Studies";
 import Tools from "../Tools";
 import Contact from "../Contact";
 import Title from "../component/Title";
+import Footer from "../Footer";
 
 function HomePage() {
   return (
@@ -21,6 +22,7 @@ function HomePage() {
       <Tools />
       <Title>Me contacter</Title>
       <Contact />
+      <Footer />
     </Container>
   );
 }
