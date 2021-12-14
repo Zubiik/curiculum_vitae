@@ -10,8 +10,12 @@ export const RightSectionContainer = styled.div`
 `;
 export const SectionShadowContainer = styled.div`
   display: flex;
-  padding-bottom: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 10px -15px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+`;
+export const SectionWithoutShadowContainer = styled.div`
+  display: flex;
+  padding: 10px;
 `;
 
 export const LeftTextSection = styled.p`

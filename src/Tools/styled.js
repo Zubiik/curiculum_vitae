@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `;
 
 export const SquaresContainer = styled.div`
