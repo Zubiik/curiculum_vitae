@@ -44,7 +44,6 @@ export const PokeImgCustom = styled.img`
 width: 440px;
 height: 299px;
 `;
-export const CustomTitle = styled(Title)`
-`;
+
 
 

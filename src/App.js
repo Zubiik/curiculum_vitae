@@ -1,22 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import HomePage from './HomePage/Index';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-
+import { ThemeProvider } from '@emotion/react';
+import "./App.css";
+import HomePage from "./HomePage/Index";
+import { theme } from "./theme";
 
 function App() {
   return (
-    <Router>
-      <div>
-    <HomePage/>
-      </div>
-    </Router>
-    
+    <ThemeProvider theme={theme}>
+        <div>
+          <HomePage />
+        </div>
+    </ThemeProvider>
   );
 }
 
