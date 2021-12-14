@@ -1,18 +1,18 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  background-color: ${({ theme }) => theme.colors.gunMetal};
+  background-color: ${({ theme }) => theme.colors.gunMetalAlpha};
+  /* opacity: 0.40; */
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 90px;
   align-items: center;
-  position:fixed;
+  position: fixed;
   top:0px;
   z-index:1;
 `;
 export const TextCustom = styled.p`
   color: ${({ theme }) => theme.colors.slateGray};
-  padding: 10px;
 `;
 export const ButtonsSection = styled.div`
   width: 80%;
