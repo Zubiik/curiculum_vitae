@@ -21,6 +21,7 @@ h1 {
   font-weight: normal;
 }
 
-
-p { padding: none;
+p {
+  padding: none;
+  color: #1b2932;
 }
