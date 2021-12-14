@@ -1,50 +1,52 @@
 import React from "react";
-import phoneView from "../images/phoneView.png";
-import pokedexView from "../images/pokedexProject.png";
+import shareMmap from "../images/Share-my-map-ICON.png";
+import pokedex from "../images/Pokedex-ICON.png";
 import Text from "../Text";
 import {
+  Container,
   ImgCustom,
-  PokedexSectionContainer,
-  PokeImgCustom,
+  RightTextSection,
   SectionContainer,
-  TextSection,
+  LeftTextSection,
+  TextCustom,
   SectionShadowContainer,
-  SectionPokedexShadowContainer,
+  RightSectionContainer,
 } from "./styled";
 
 function Portfolio({ text }) {
   console.log("coucou--->", text);
   return (
-    <div>
+    <Container>
       <SectionContainer>
         <SectionShadowContainer>
-          <ImgCustom src={phoneView} alt="phoneView" />
-          <TextSection>
-            <span>Share My Map</span>
+          <ImgCustom src={shareMmap} alt="phonesView" />
+          <LeftTextSection>
+            <TextCustom>Share My Map</TextCustom>
             <Text></Text>
-          </TextSection>
+          </LeftTextSection>
         </SectionShadowContainer>
       </SectionContainer>
-      <PokedexSectionContainer>
-        <SectionPokedexShadowContainer>
-          <PokeImgCustom src={pokedexView} alt="desktopView" />
-          <TextSection>
-            <span>Pokedex</span>
-            <Text />
-          </TextSection>
-        </SectionPokedexShadowContainer>
-      </PokedexSectionContainer>
+
+      <RightSectionContainer>
+        <SectionShadowContainer>
+          <RightTextSection>
+            <TextCustom>Pokedex</TextCustom>
+            <Text></Text>
+          </RightTextSection>
+          <ImgCustom src={pokedex} alt="podexView" />
+        </SectionShadowContainer>
+      </RightSectionContainer>
+
       <SectionContainer>
         <SectionShadowContainer>
-         
-          <TextSection>
-            <span>find Water</span>
+          <ImgCustom src={shareMmap} alt="phoneView" />
+          <LeftTextSection>
+            <TextCustom>find Water</TextCustom>
             <Text></Text>
-          </TextSection>
-        <ImgCustom src={phoneView} alt="phoneView" />
-        </SectionShadowContainer> 
+          </LeftTextSection>
+        </SectionShadowContainer>
       </SectionContainer>
-    </div>
+    </Container>
   );
 }
 

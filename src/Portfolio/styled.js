@@ -1,49 +1,34 @@
 import styled from "@emotion/styled";
-import Title from "../component/Title";
-
-
 
 export const Container = styled.section`
-border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 `;
 export const SectionContainer = styled.div`
-display: flex;
-height: 600px;
-align-items: center;
-justify-content: center;
+`;
+export const RightSectionContainer = styled.div`
 `;
 export const SectionShadowContainer = styled.div`
-display: flex;
-padding-bottom: 10px;
-box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 10px -15px;
+  display: flex;
+  padding-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 10px -15px;
 `;
-export const SectionPokedexShadowContainer = styled(SectionShadowContainer)`
-flex-direction: column;
-align-items: center;
+
+export const LeftTextSection = styled.p`
+  padding-right: 5px;
+  padding-left: 5px;
 `;
-export const PokedexSectionContainer = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 500px;
-`;
-export const TextSection = styled.p`
-padding-right: 5px;
-padding-left: 5px;
-text-align: center;
-/* border: 1px solid blue; */
-width: 20%;
-color: #5E7887;
+export const RightTextSection = styled.p`
+  padding-right: 10px;
+  text-align: right;
 `;
 
 export const ImgCustom = styled.img`
-width: 177px;
-height: 329px;
+  margin: 20px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 `;
-export const PokeImgCustom = styled.img`
-width: 440px;
-height: 299px;
+export const TextCustom = styled.span`
+  font-size: 30px;
+  color: ${({ theme }) => theme.lightColors.beauBlue};
 `;
-
-
-
