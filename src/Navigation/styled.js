@@ -6,6 +6,9 @@ export const Container = styled.div`
   width: 100%;
   height: 100px;
   align-items: center;
+  position:fixed;
+  top:0px;
+  z-index:1;
 `;
 export const TextCustom = styled.p`
   color: ${({ theme }) => theme.colors.slateGray};
