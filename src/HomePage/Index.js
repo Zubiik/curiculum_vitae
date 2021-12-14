@@ -5,6 +5,7 @@ import {Container, } from "./styled";
 import Portfolio from "../Portfolio";
 import Studies from "../Studies";
 import Tools from "../Tools";
+import Contact from "../Contact";
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
       <Studies />
       <Portfolio />
       <Tools/>
+      <Contact/>
     </Container>
   );
 }
