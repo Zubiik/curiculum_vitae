@@ -1,6 +1,7 @@
 export const theme = {
 colors:{
     copperRed: '#C37455',
+    gunMetalAlpha:'#1B2932AA',
     gunMetal:'#1B2932',
     slateGray:'#5E7887',
     tan:'#D3B692',
