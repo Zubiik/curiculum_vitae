@@ -11,6 +11,7 @@ import {
   TextCustom,
   SectionShadowContainer,
   RightSectionContainer,
+  SectionWithoutShadowContainer
 } from "./styled";
 
 function Portfolio({ text }) {
@@ -19,7 +20,7 @@ function Portfolio({ text }) {
     <Container>
       <SectionContainer>
         <SectionShadowContainer>
-          <ImgCustom src={shareMmap} alt="phonesView" />
+          <img src={shareMmap} alt="phonesView" />
           <LeftTextSection>
             <TextCustom>Share My Map</TextCustom>
             <Text></Text>
@@ -28,18 +29,18 @@ function Portfolio({ text }) {
       </SectionContainer>
 
       <RightSectionContainer>
-        <SectionShadowContainer>
+        <SectionWithoutShadowContainer>
           <RightTextSection>
             <TextCustom>Pokedex</TextCustom>
             <Text></Text>
           </RightTextSection>
           <ImgCustom src={pokedex} alt="podexView" />
-        </SectionShadowContainer>
+        </SectionWithoutShadowContainer>
       </RightSectionContainer>
 
       <SectionContainer>
         <SectionShadowContainer>
-          <ImgCustom src={shareMmap} alt="phoneView" />
+          <img src={shareMmap} alt="phoneView" />
           <LeftTextSection>
             <TextCustom>find Water</TextCustom>
             <Text></Text>
