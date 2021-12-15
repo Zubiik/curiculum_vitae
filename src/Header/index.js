@@ -10,7 +10,7 @@ function Header() {
     <Container>
       <TextContainer>
         <TextCustom>{circleText}</TextCustom>
-        <p>Bienvenue</p>
+        <h2>Et si vous regardez mon site vous allez peut etre m'embaucher</h2>
       </TextContainer>
         <ProfilPicture src={pdp} alt="PDP" />
     </Container>
