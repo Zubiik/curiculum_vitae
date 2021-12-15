@@ -8,11 +8,12 @@ export const Container = styled.div`
   height: 90px;
   align-items: center;
   position: fixed;
-  top:0px;
-  z-index:1;
+  top: 0px;
+  z-index: 1;
 `;
 export const TextCustom = styled.p`
-  color: ${({ theme }) => theme.colors.slateGray};
+  padding-left: 10px;
+  color: ${({ theme }) => theme.lightColors.isabeline};
 `;
 export const ButtonsSection = styled.div`
   width: 80%;
