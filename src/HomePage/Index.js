@@ -8,12 +8,15 @@ import Tools from "../Tools";
 import Contact from "../Contact";
 import Title from "../component/Title";
 import Footer from "../Footer";
+import Skills from "../Skills";
 
 function HomePage() {
   return (
     <Container>
+      
       <Navigation />
       <Header />
+     < Skills/>
       <Title>PARCOURS</Title>
       <Studies />
       <Title>PORTFOLIO</Title>
