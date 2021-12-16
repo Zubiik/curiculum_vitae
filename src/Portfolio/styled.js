@@ -4,14 +4,12 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
 `;
-export const SectionContainer = styled.div`
-`;
-export const RightSectionContainer = styled.div`
-`;
+export const SectionContainer = styled.div``;
+export const RightSectionContainer = styled.div``;
 export const SectionShadowContainer = styled.div`
   display: flex;
   padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 `;
 export const SectionWithoutShadowContainer = styled.div`
   display: flex;

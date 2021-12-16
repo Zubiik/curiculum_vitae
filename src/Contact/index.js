@@ -8,12 +8,18 @@ import {
   BoxCustom,
   PinkTextCustom,
   GreenTextCustom,
-  TextCustom
+  TextCustom,
 } from "./styled";
 import phoneIcon from "../images/phoneIcon.png";
 import mailIcon from "../images/mailIcon.png";
 
 function Contact() {
+  const textToCopy = "elodiefrappat@gmail.com";
+ 
+  const copyHandler = () => {
+    navigator.clipboard.writeText(textToCopy);
+    alert(' mail copied');
+  }
   return (
     <Container>
       <BoxCustom>
@@ -22,7 +28,8 @@ function Contact() {
       </BoxCustom>
       <GreenBoxCustom>
         <ImageCustom src={mailIcon} alt="mail icon" />
-        <GreenTextCustom>elodiefrappat@gmail.com</GreenTextCustom>
+        
+        <GreenTextCustom onClick={copyHandler}>{textToCopy}</GreenTextCustom>
       </GreenBoxCustom>
       <PinkBoxCustom>
         <ImageCustom src={phoneIcon} alt="phone icon" />
