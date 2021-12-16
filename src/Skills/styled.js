@@ -1,8 +1,30 @@
 import styled from "@emotion/styled";
 
+import { keyframes } from "@emotion/react";
+
+const bounce = keyframes`
+  from, 20%, 53%, 80%, to {
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+`;
+
 export const Container = styled.div`
   width: 100%;
-  background-color: #F2F2F2 ;
+  background-color: #f2f2f2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 10px -15px;
+   
 `;
 export const BoxContainer = styled.div`
   width: 30%;
@@ -41,15 +63,9 @@ export const CustomTextLine = styled.div`
 
 export const ImageCustom = styled.img`
   height: 150px;
-  &{
-     animation: bounce 0.7s ease infinite;
-}
-
-@keyframes bounce{
-     from {top: 106px;}
-     50%  {top: 86px;}
-     to   {top: 106px;}
-}
+  :hover {
+    animation: ${bounce} 1s ease;
+  }
 `;
 
 export const ImageAndBoxCustom = styled.div`
