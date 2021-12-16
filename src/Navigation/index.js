@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import NavButton from "../component/Button/Index";
 import { Container, TextCustom, ButtonsSection, TitleCustom } from "./styled";
 
 function Navigation() {
+
+
   return (
     <Container>
       <TitleCustom>
         <TextCustom>ELODIE FRAPPAT</TextCustom>
       </TitleCustom>
       <ButtonsSection>
-        <NavButton>
+        <NavButton >
           <p>Parcours</p>
         </NavButton>
         <NavButton>
