@@ -18,6 +18,7 @@ function Portfolio({ text }) {
   console.log("coucou--->", text);
   return (
     <Container>
+  
       <SectionContainer>
         <SectionShadowContainer>
           <img src={shareMmap} alt="phonesView" />
