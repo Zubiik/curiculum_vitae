@@ -15,7 +15,6 @@ import {
 } from "./styled";
 
 function Portfolio({ text }) {
-  console.log("coucou--->", text);
   return (
     <Container>
   
