@@ -13,16 +13,20 @@ import Skills from "../Skills";
 function HomePage() {
   return (
     <Container>
-      
       <Navigation />
       <Header />
-     < Skills/>
+      <div id="competences"></div>
+      <Title>SKILLLLLLLS</Title>
+      <Skills />
+      <div id="parcours"></div>
       <Title>PARCOURS</Title>
       <Studies />
+      <div id="portfolio"></div>
       <Title>PORTFOLIO</Title>
       <Portfolio />
       <Title>SKILLLLLLLS</Title>
       <Tools />
+      <div id="contact"></div>
       <Title>Me contacter</Title>
       <Contact />
       <Footer />

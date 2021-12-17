@@ -21,7 +21,7 @@ import workflow from "../images/workflow.png";
 
 function Skills() {
   return (
-    <Container id="competences">
+    <Container >
       <ImageAndBoxCustom>
         <BoxContainer>
           <TitleCustom>Front-End</TitleCustom>

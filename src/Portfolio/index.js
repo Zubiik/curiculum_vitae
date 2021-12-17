@@ -16,7 +16,7 @@ import {
 
 function Portfolio({ text }) {
   return (
-    <Container id="portfolio">
+    <Container>
   
       <SectionContainer>
         <SectionShadowContainer>
