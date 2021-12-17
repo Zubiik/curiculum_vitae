@@ -22,7 +22,6 @@ export const SquaresContainer = styled.div`
   @media all and (max-width: 480px) {
     width: 100%;
     margin:0;
-
   }
 `;
 export const Square = styled.div`
