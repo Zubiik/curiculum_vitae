@@ -7,6 +7,7 @@ colors:{
     tan:'#D3B692',
     puce:'#CC8899',
     emerald:'#3F8D6C',
+    gold:"#DCB253",
    
 },
 lightColors: {
