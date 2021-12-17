@@ -1,15 +1,9 @@
 import React from "react";
-import { Container, CustomStar} from "./styled";
-
+import { Container, CustomStar, FillCustom } from "./styled";
 
 function GreenStars({ level }) {
-  console.log(level);
   const doubled = level.map((star, index) => {
-    return star ? (
-      <CustomStar />
-    ) : (
-      <CustomStar  />
-    );
+    return star ? <CustomStar /> : <FillCustom />;
   });
   return <Container>{doubled}</Container>;
 }

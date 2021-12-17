@@ -1,16 +1,10 @@
 import React from "react";
-import { Container, StarCustom } from "./styled";
+import { Container, StarCustom, FillCustom } from "./styled";
 
-
-function PinkStars({ level }) {
+function PinkStars({ level, setColor }) {
   
-  console.log(level);
   const doubled = level.map((star, index) => {
-    return star ? (
-        <StarCustom />
-    ) : (
-      <StarCustom/>
-    );
+    return star ? <StarCustom /> : <FillCustom setColor={"#3F8D6C"} />;
   });
   return <Container>{doubled}</Container>;
 }
