@@ -11,6 +11,12 @@ export const ParcoursContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  @media all and (max-width: 480px) {
+    width: 100%;
+  }
 `;
-export const ImageContainer = styled.img``;
+export const ImageCustom = styled.img`
+  @media all and (max-width: 480px) {
+    display: none;
+  }
+`;

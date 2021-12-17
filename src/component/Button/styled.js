@@ -16,4 +16,8 @@ export const CustomButton = styled.button`
     color: ${({ theme }) => theme.colors.gunMetal};
     background-color: ${({ theme }) => theme.colors.emerald};
   }
+  @media all and (max-width: 480px) {
+    font-size: 11px;
+    margin: 0;
+  }
 `;

@@ -1,13 +1,13 @@
 import React from "react";
 import Box from "../component/Box";
-import { Container, ParcoursContainer } from "./styled";
+import { Container, ParcoursContainer, ImageCustom } from "./styled";
 import figmaImage from "../images/ex.png";
 
 function Studies() {
   return (
     <Container>
       <ParcoursContainer >
-        <img src={figmaImage} alt="i" />
+        <ImageCustom src={figmaImage} alt="i" />
         <Box>
           <p>
             Where does it come from? Contrary to popular belief, Lorem Ipsum is

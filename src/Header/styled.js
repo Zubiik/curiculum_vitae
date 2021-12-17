@@ -7,7 +7,10 @@ export const Container = styled.div`
   align-items: center;
   width: 100%;
   min-height: 600px;
-  /* border:1px red solid; */
+  @media all and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 export const TextContainer = styled.div`
   display: flex;

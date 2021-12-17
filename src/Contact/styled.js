@@ -3,6 +3,10 @@ import Box from "../component/Box";
 
 export const Container = styled.div`
   display: flex;
+  @media all and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 export const BoxCustom = styled(Box)`
   width: 200px;

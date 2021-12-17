@@ -24,7 +24,6 @@ export const Container = styled.div`
   width: 100%;
   background-color: #f2f2f2;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 10px -15px;
-   
 `;
 export const BoxContainer = styled.div`
   width: 30%;
@@ -35,6 +34,10 @@ export const BoxContainer = styled.div`
   margin: 10px;
   border-radius: 20px;
   background: ${({ theme }) => theme.lightColors.lightWhite};
+  @media all and (max-width: 480px) {
+    width: 100%;
+  }
+  
 `;
 
 export const StarsContainer = styled.div`
@@ -65,6 +68,9 @@ export const ImageCustom = styled.img`
   height: 150px;
   :hover {
     animation: ${bounce} 1s ease;
+  }
+  @media all and (max-width: 480px) {
+    display: none;
   }
 `;
 
