@@ -7,6 +7,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  @media all and (max-width: 480px) {
+    display: flex;
+    align-items: flex-start;
+  }
 `;
 
 export const SquaresContainer = styled.div`
@@ -15,6 +19,11 @@ export const SquaresContainer = styled.div`
   flex-wrap: wrap;
   width: 40%;
   margin: 40px;
+  @media all and (max-width: 480px) {
+    width: 100%;
+    margin:0;
+
+  }
 `;
 export const Square = styled.div`
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
