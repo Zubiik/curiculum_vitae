@@ -21,7 +21,7 @@ function Contact() {
     alert(' mail copied');
   }
   return (
-    <Container>
+    <Container id="contact">
       <BoxCustom>
         <TextCustom>Vous souhaitez me rencontrer?</TextCustom>
         <span> chamonix alentours</span>

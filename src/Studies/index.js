@@ -5,7 +5,7 @@ import figmaImage from "../images/ex.png";
 
 function Studies() {
   return (
-    <Container>
+    <Container id="parcours">
       <ParcoursContainer >
         <ImageCustom src={figmaImage} alt="i" />
         <Box>

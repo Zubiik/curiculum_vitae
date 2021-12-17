@@ -12,16 +12,16 @@ function Navigation() {
       </TitleCustom>
       <ButtonsSection>
         <NavButton >
-          <p>Parcours</p>
+          <a href="#parcours"><p>Parcours</p></a>
         </NavButton>
         <NavButton>
-          <p>Portfolio</p>
+          <a href="#portfolio"><p>Portfolio</p></a>
         </NavButton>
         <NavButton>
-          <p>Compétences</p>
+          <a href="#competences"><p>Compétences</p></a>
         </NavButton>
         <NavButton>
-          <p>Contactez moi</p>
+          <a href="#contact"><p>Contactez moi</p></a>
         </NavButton>
       </ButtonsSection>
     </Container>
