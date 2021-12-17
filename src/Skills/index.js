@@ -10,7 +10,8 @@ import {
   Container,
   ImageCustom,
   ImageAndBoxCustom,
-  ImageAndBoxCustomLeft
+  ImageAndBoxCustomLeft,
+  GoldTitleCustom
 } from "./styled";
 import PinkStars from "../component/PinkStars";
 import GreenStars from "../component/GreenStars";
@@ -42,7 +43,7 @@ function Skills() {
 
       <ImageAndBoxCustomLeft>
         <BoxContainer>
-          <GreenTitleCustom>Design</GreenTitleCustom>
+          <GoldTitleCustom>Design</GoldTitleCustom>
           <StarsContainer>
             <p>Figma</p>
             <GreenStars level={[1, 2, 3, null, null]} />

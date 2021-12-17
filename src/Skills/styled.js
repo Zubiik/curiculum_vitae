@@ -37,7 +37,6 @@ export const BoxContainer = styled.div`
   @media all and (max-width: 480px) {
     width: 100%;
   }
-  
 `;
 
 export const StarsContainer = styled.div`
@@ -50,6 +49,11 @@ export const TitleCustom = styled.h3`
 export const GreenTitleCustom = styled.h3`
   color: ${({ theme }) => theme.colors.emerald};
 `;
+export const GoldTitleCustom = styled.h3`
+  color: ${({ theme }) => theme.colors.gold};
+`;
+
+
 export const BoldText = styled.span`
   margin-bottom: 10px;
   font-weight: bold;
