@@ -32,4 +32,8 @@ export const ButtonsSection = styled.div`
 export const TitleCustom = styled.div`
   width: 30%;
   font-size: 40px;
+  padding-left: 10px;
+  @media all and (max-width: 480px) {
+    display: none;
+  }
 `;

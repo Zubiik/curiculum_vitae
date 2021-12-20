@@ -8,10 +8,12 @@ export const Container = styled.section`
   }
 `;
 export const SectionContainer = styled.div``;
+
 export const RightSectionContainer = styled.div``;
+
 export const SectionShadowContainer = styled.div`
   display: flex;
-  padding: 10px;
+  padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   @media all and (max-width: 480px) {
     display: flex;

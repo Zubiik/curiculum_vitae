@@ -30,8 +30,8 @@ export const BoxContainer = styled.div`
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  padding: 20px;
-  margin: 10px;
+  padding: 10px;
+  margin: 20px;
   border-radius: 20px;
   background: ${({ theme }) => theme.lightColors.lightWhite};
   @media all and (max-width: 480px) {
@@ -52,7 +52,6 @@ export const GreenTitleCustom = styled.h3`
 export const GoldTitleCustom = styled.h3`
   color: ${({ theme }) => theme.colors.gold};
 `;
-
 
 export const BoldText = styled.span`
   margin-bottom: 10px;
@@ -79,10 +78,16 @@ export const ImageCustom = styled.img`
 `;
 
 export const ImageAndBoxCustom = styled.div`
+  padding-left: 30px;
   display: flex;
   align-items: center;
+
+  :hover {
+    animation: ${bounce} 1s ease;
+  }
 `;
 export const ImageAndBoxCustomLeft = styled(ImageAndBoxCustom)`
+  padding-right: 30px;
   display: flex;
   flex-direction: row-reverse;
 `;
