@@ -3,34 +3,55 @@ import Box from "../component/Box";
 
 export const Container = styled.div`
   display: flex;
+  justify-content: space-around;
   @media all and (max-width: 480px) {
     display: flex;
     flex-direction: column;
   }
 `;
 export const BoxCustom = styled(Box)`
-  width: 200px;
   display: flex;
+  width: 300px;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background: rgba(94, 120, 135, 0.3);
+  position: relative;
 `;
 export const TextCustom = styled.span`
   color: ${({ theme }) => theme.colors.slateGray};
+  font-weight: bold;
 `;
 export const PinkBoxCustom = styled(BoxCustom)`
   background: rgba(204, 136, 153, 0.3);
 `;
-export const PinkTextCustom = styled.span`
-    color: ${({ theme }) => theme.colors.puce};
-
-`;
-
 export const GreenBoxCustom = styled(BoxCustom)`
   background: rgba(63, 141, 108, 0.3);
 `;
-export const GreenTextCustom = styled.span`
+export const InlineTextCustom = styled.span`
+  color: ${({ theme }) => theme.colors.puce};
+  padding: 4px;
+`;
+
+export const GreenTextCustom = styled(InlineTextCustom)`
   color: ${({ theme }) => theme.colors.emerald};
 `;
-export const ImageCustom = styled.img``;
+export const GreyTextCustom = styled(InlineTextCustom)`
+  color: ${({ theme }) => theme.colors.gunMetal};
+`;
+export const ImageCustom = styled.div``;
+
+export const ToolTip = styled.span`
+  opacity: 0%;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  :checked {
+    opacity: 100%;
+  }
+`;
