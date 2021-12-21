@@ -6,7 +6,12 @@ import htmlImage from "../images/html.png";
 import cssImage from "../images/css.png";
 import githubImage from "../images/github.png";
 import jestImage from "../images/jest.png";
-import Title from '../component/Title';
+import storyBook from "../images/storyBook.png";
+import cucumber from "../images/cucumber.png";
+import expo from "../images/expo.png";
+import emotion from "../images/emotion.png";
+import figma from "../images/figma.png";
+import rtl from "../images/rtl.png";
 
 function Tools() {
   return (
@@ -40,13 +45,33 @@ function Tools() {
         <ZoomSquare src={htmlImage} alt="htmlImage" />
       </Square>
       <Square>
-        <TextSquare>Git Hub</TextSquare>
-        <ZoomSquare src={githubImage} alt="githubImage" />
+        <TextSquare>Storybook</TextSquare>
+        <ZoomSquare src={storyBook} alt="storyBook" />
       </Square>
       <Square>
-        <TextSquare>Html</TextSquare>
+        <TextSquare>Cucumber</TextSquare>
 
-        <ZoomSquare src={htmlImage} alt="htmlImage" />
+        <ZoomSquare src={cucumber} alt="cucumber" />
+      </Square>
+      <Square>
+        <TextSquare>Expo</TextSquare>
+
+        <ZoomSquare src={emotion} alt="Emotion" />
+      </Square>
+      <Square>
+        <TextSquare>Emotion</TextSquare>
+
+        <ZoomSquare src={expo} alt="Expo" />
+      </Square>
+      <Square>
+        <TextSquare>Figma</TextSquare>
+
+        <ZoomSquare src={figma} alt="figma" />
+      </Square>
+      <Square>
+        <TextSquare>React Testing Library</TextSquare>
+
+        <ZoomSquare src={rtl} alt="react-testing-library" />
       </Square>
     </SquaresContainer>
     </Container>
