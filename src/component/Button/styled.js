@@ -6,6 +6,8 @@ export const CustomButton = styled.div`
   max-height: 50px;
   min-width: 100px;
   margin: 4px;
+  font-size: 18px;
+
   color: ${({ theme }) => theme.lightColors.lightWhite};
   & {
     transition-duration: 0.4s;
