@@ -1,7 +1,7 @@
 import React from "react";
 import shareMmap from "../images/Share-my-map-ICON.png";
 import pokedex from "../images/Pokedex-ICON.png";
-import Text from "../Text";
+import Text from "../component/Text";
 import {
   Container,
   ImgCustom,
