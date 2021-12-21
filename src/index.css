@@ -25,9 +25,11 @@ h2 {
   margin: 0;
   font-weight: normal;
 }
+h3 {
+  margin: 0;
+}
 
 p {
-  padding: none;
 }
 a {
   color:inherit;
