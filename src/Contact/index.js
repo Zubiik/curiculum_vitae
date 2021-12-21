@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import Box from "../component/Box";
 import {
   ImageCustom,
@@ -16,15 +16,18 @@ import mailIcon from "../images/mailIcon.png";
 import tippy from "tippy.js";
 
 const Contact = () => {
+
   const textToCopy = "elodiefrappat@gmail.com";
   const phoneToCopy = "06.06.06.25.02";
 
   const copyHandler = () => {
+
     navigator.clipboard.writeText(textToCopy);
     tippy("#myText", {
       trigger: "click",
       theme: 'light',
     });
+
   };
 
   return (
