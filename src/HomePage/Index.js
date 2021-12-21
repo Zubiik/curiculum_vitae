@@ -16,7 +16,7 @@ function HomePage() {
       <Navigation />
       <Header />
       <div id="competences"></div>
-      <Title>SKILLLLLLLS</Title>
+      <Title>COMPETENCES</Title>
       <Skills />
       <div id="parcours"></div>
       <Title>PARCOURS</Title>
@@ -24,10 +24,10 @@ function HomePage() {
       <div id="portfolio"></div>
       <Title>PORTFOLIO</Title>
       <Portfolio />
-      <Title>SKILLLLLLLS</Title>
+      <Title>OUTILS</Title>
       <Tools />
       <div id="contact"></div>
-      <Title>Me contacter</Title>
+      <Title>CONTACT</Title>
       <Contact />
       <Footer />
     </Container>
