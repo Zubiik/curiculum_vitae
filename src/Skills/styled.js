@@ -21,6 +21,7 @@ const bounce = keyframes`
 `;
 
 export const Container = styled.div`
+  padding: 40px;
   width: 100%;
   background-color: #f2f2f2;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 10px -15px;
