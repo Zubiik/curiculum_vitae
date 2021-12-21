@@ -6,12 +6,17 @@ import {
   StarsContainer,
   GreenTitleCustom,
   BoldText,
-  TextsContainer,
+  EnvInfos,
   Container,
   ImageCustom,
   ImageAndBoxCustom,
   ImageAndBoxCustomLeft,
-  GoldTitleCustom
+  GoldTitleCustom,
+  LeftPart,
+  RightPart,
+  BoxOfParts,
+  SkillLabel,
+  TextContainer,
 } from "./styled";
 import PinkStars from "../component/PinkStars";
 import GreenStars from "../component/GreenStars";
@@ -21,49 +26,90 @@ import workflow from "../images/workflow.png";
 
 function Skills() {
   return (
-    <Container >
+    <Container>
       <ImageAndBoxCustom>
         <BoxContainer>
-          <TitleCustom>Front-End</TitleCustom>
-          <StarsContainer>
-            <p>React</p>
-            <PinkStars level={[1, 2, 3, 4, 5]} />
-          </StarsContainer>
-          <StarsContainer>
-            <p>Javascript</p>
-            <PinkStars level={[1, 2, 3, null, null]} />
-          </StarsContainer>
-          <StarsContainer>
-            <p>React native</p>
-            <PinkStars level={[1, 2, 3, null, null]} />
-          </StarsContainer>
+          <TextContainer>
+            <TitleCustom>Front-End</TitleCustom>
+            <p>
+              Création de maquettes XD et HTML, ainsi que de prototypes
+              fonctionnels. Conception centrée utilisateur selon les règles d'UX
+              lors de la création d'une interface utilisateur.
+            </p>
+          </TextContainer>
+          <BoxOfParts>
+            <LeftPart>
+              <StarsContainer>
+                <SkillLabel>React</SkillLabel>
+                <PinkStars level={[1, 2, 3, 4, 5]} />
+              </StarsContainer>
+              <StarsContainer>
+                <SkillLabel>Html 5</SkillLabel>
+                <PinkStars level={[1, 2, 3, 4, 5]} />
+              </StarsContainer>
+              <StarsContainer>
+                <SkillLabel>Javascript</SkillLabel>
+                <PinkStars level={[1, 2, 3, null, null]} />
+              </StarsContainer>
+            </LeftPart>
+            <RightPart>
+              <StarsContainer>
+                <SkillLabel>React native</SkillLabel>
+                <PinkStars level={[1, 2, 3, null, null]} />
+              </StarsContainer>
+              <StarsContainer>
+                <SkillLabel>React testing library</SkillLabel>
+                <PinkStars level={[1, 2, null, null, null]} />
+              </StarsContainer>
+              <StarsContainer>
+                <SkillLabel>Json</SkillLabel>
+                <PinkStars level={[1, 2, 3, null, null]} />
+              </StarsContainer>
+            </RightPart>
+          </BoxOfParts>
         </BoxContainer>
-          <ImageCustom src={frontEndImg} alt="frontEnd icon" />
+        <ImageCustom src={frontEndImg} alt="frontEnd icon" />
       </ImageAndBoxCustom>
 
       <ImageAndBoxCustomLeft>
         <BoxContainer>
-          <GoldTitleCustom>Design</GoldTitleCustom>
-          <StarsContainer>
-            <p>Figma</p>
-            <GreenStars level={[1, 2, 3, null, null]} />
-          </StarsContainer>
-          <StarsContainer>
-            <p>Maquettage</p>
-            <GreenStars level={[1, 2, null, null, null]} />
-          </StarsContainer>
-          <StarsContainer>
-            <p>Prototypage</p>
-            <GreenStars level={[1, null, null, null, null]} />
-          </StarsContainer>
+          <TextContainer>
+            <GoldTitleCustom>Design</GoldTitleCustom>
+            <p>
+              Création de maquettes XD et HTML, ainsi que de prototypes
+              fonctionnels. Conception centrée utilisateur selon les règles d'UX
+              lors de la création d'une interface utilisateur.
+            </p>
+          </TextContainer>
+          <BoxOfParts>
+            <LeftPart>
+              <StarsContainer>
+                <SkillLabel>Figma</SkillLabel>
+                <GreenStars level={[1, 2, 3, null, null]} />
+              </StarsContainer>
+
+              <StarsContainer>
+                <SkillLabel>Maquettage</SkillLabel>
+                <GreenStars level={[1, 2, null, null, null]} />
+              </StarsContainer>
+            </LeftPart>
+            <RightPart>
+              <StarsContainer>
+                <SkillLabel>Prototypage</SkillLabel>
+                <GreenStars level={[1, null, null, null, null]} />
+              </StarsContainer>
+            </RightPart>
+          </BoxOfParts>
         </BoxContainer>
         <ImageCustom src={design} alt="design icon" />
       </ImageAndBoxCustomLeft>
 
       <ImageAndBoxCustom>
         <BoxContainer>
-          <GreenTitleCustom>Environnement de travail</GreenTitleCustom>
-          <TextsContainer>
+          <TextContainer>
+            <GreenTitleCustom>Environnement de travail</GreenTitleCustom>
+          </TextContainer>
+          <EnvInfos>
             <CustomTextLine>
               <BoldText>système d'exploitation: </BoldText>Linux
             </CustomTextLine>
@@ -75,7 +121,7 @@ function Skills() {
             <CustomTextLine>
               <BoldText>IDE: </BoldText> Visual Studio Code
             </CustomTextLine>
-          </TextsContainer>
+          </EnvInfos>
         </BoxContainer>
         <ImageCustom src={workflow} alt="workflow icon" />
       </ImageAndBoxCustom>

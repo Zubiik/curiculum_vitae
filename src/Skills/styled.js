@@ -21,36 +21,78 @@ const bounce = keyframes`
 `;
 
 export const Container = styled.div`
-  padding: 40px;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: #f2f2f2;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 10px -15px;
 `;
+
 export const BoxContainer = styled.div`
-  width: 30%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  /* min-height: 250px; */
+  width: 800px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  padding: 10px;
+  padding: 40px;
   margin: 20px;
   border-radius: 20px;
   background: ${({ theme }) => theme.lightColors.lightWhite};
-  @media all and (max-width: 480px) {
+  /* @media all and (max-width: 480px) {
     width: 100%;
-  }
+  } */
+`;
+
+export const TextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 
 export const StarsContainer = styled.div`
   display: flex;
+  justify-content: space-between;
 `;
 
-export const TitleCustom = styled.h3`
+export const LeftPart = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+`;
+
+export const RightPart = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+`;
+
+export const BoxOfParts = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+`;
+
+export const SkillLabel = styled.p`
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+`;
+
+export const TitleSize = styled.h3`
+  font-size: 24px;
+`;
+
+export const TitleCustom = styled(TitleSize)`
   color: ${({ theme }) => theme.colors.puce};
 `;
-export const GreenTitleCustom = styled.h3`
+
+export const GreenTitleCustom = styled(TitleSize)`
   color: ${({ theme }) => theme.colors.emerald};
 `;
-export const GoldTitleCustom = styled.h3`
+
+export const GoldTitleCustom = styled(TitleSize)`
   color: ${({ theme }) => theme.colors.gold};
 `;
 
@@ -58,10 +100,11 @@ export const BoldText = styled.span`
   margin-bottom: 10px;
   font-weight: bold;
 `;
-export const TextsContainer = styled.div`
+export const EnvInfos = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 20px;
 `;
 
 export const CustomTextLine = styled.div`
@@ -70,16 +113,13 @@ export const CustomTextLine = styled.div`
 
 export const ImageCustom = styled.img`
   height: 150px;
-  :hover {
-    animation: ${bounce} 1s ease;
-  }
-  @media all and (max-width: 480px) {
+  /* @media all and (max-width: 480px) {
     display: none;
-  }
+  } */
 `;
 
 export const ImageAndBoxCustom = styled.div`
-  padding-left: 30px;
+  padding: 40px;
   display: flex;
   align-items: center;
 
