@@ -8,12 +8,14 @@ function Navigation() {
   return (
     <Container>
       <TitleCustom>
-        <TextCustom>ELODIE FRAPPAT</TextCustom>
+        <TextCustom>Elodie Frappat</TextCustom>
       </TitleCustom>
       <ButtonsSection>
+
         <NavButton >
           <a href="#parcours"><p>Parcours</p></a>
         </NavButton>
+        
         <NavButton>
           <a href="#portfolio"><p>Portfolio</p></a>
         </NavButton>
