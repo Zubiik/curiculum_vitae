@@ -1,7 +1,6 @@
 import React from "react";
 import shareMmap from "../images/Share-my-map-ICON.png";
 import pokedex from "../images/Pokedex-ICON.png";
-import Text from "../component/Text";
 import {
   Container,
   ImgCustom,
@@ -23,7 +22,7 @@ function Portfolio({ text }) {
           <img src={shareMmap} alt="phonesView" />
           <LeftTextSection>
             <TextCustom>Share My Map</TextCustom>
-            <Text></Text>
+            <p>Application permettant de partager ses maps favorites</p>
           </LeftTextSection>
         </SectionShadowContainer>
       </SectionContainer>
@@ -32,7 +31,7 @@ function Portfolio({ text }) {
         <SectionWithoutShadowContainer>
           <RightTextSection>
             <TextCustom>Pokedex</TextCustom>
-            <Text></Text>
+            <p>Site permettant d'acceder aux stats de tout les pokemons</p>
           </RightTextSection>
           <ImgCustom src={pokedex} alt="podexView" />
         </SectionWithoutShadowContainer>
@@ -43,7 +42,7 @@ function Portfolio({ text }) {
           <img src={shareMmap} alt="phoneView" />
           <LeftTextSection>
             <TextCustom>find Water</TextCustom>
-            <Text></Text>
+            <p>Application mobile répertoriant tout les points d'eaux sur une carte</p>
           </LeftTextSection>
         </SectionShadowContainer>
       </SectionContainer>
