@@ -4,7 +4,7 @@ import pdp from "../images/photo.jpg";
 
 function Header() {
   const circleText =
-    "Developpeuse Web, Du blabla je fais des choses en tapant sur mon clavier";
+    "Developpeuse Web front-end ";
 
   return (
     <Container>
