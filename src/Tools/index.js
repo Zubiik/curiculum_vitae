@@ -24,18 +24,54 @@ function Tools() {
   return (
     <Container>
       <SquaresContainer>
-        <SkillSquare label={"JavaScript"} image={jsImage} />
-        <SkillSquare label={"React"} image={reactImage} />
-        <SkillSquare label={"Git Hub"} image={githubImage} />
-        <SkillSquare label={"Jest"} image={jestImage} />
+        <SkillSquare
+          link={"https://www.javascript.com/"}
+          label={"JavaScript"}
+          image={jsImage}
+        />
+        <SkillSquare
+          link={"https://fr.reactjs.org/"}
+          label={"React"}
+          image={reactImage}
+        />
+        <SkillSquare
+          link={"https://github.com/Zubiik"}
+          label={"Git Hub"}
+          image={githubImage}
+        />
+        <SkillSquare
+          link={"https://jestjs.io/fr/"}
+          label={"Jest"}
+          image={jestImage}
+        />
         <SkillSquare label={"CSS"} image={cssImage} />
         <SkillSquare label={"Html"} image={htmlImage} />
-        <SkillSquare label={"Storybook"} image={storyBook} />
-        <SkillSquare label={"Cucumber"} image={cucumber} />
-        <SkillSquare label={"Expo"} image={expo} />
-        <SkillSquare label={"Emotion"} image={emotion} />
-        <SkillSquare label={"Figma"} image={figma} />
-        <SkillSquare label={"React Testing Library"} image={rtl} />
+        <SkillSquare
+          link={"https://storybook.js.org/"}
+          label={"Storybook"}
+          image={storyBook}
+        />
+        <SkillSquare
+          link={"https://cucumber.io/"}
+          label={"Cucumber"}
+          image={cucumber}
+        />
+        <SkillSquare link={"https://expo.dev/"} label={"Expo"} image={expo} />
+        <SkillSquare
+          link={"https://emotion.sh/docs/introduction"}
+          label={"Emotion"}
+          image={emotion}
+        />
+        <SkillSquare
+          link={"https://www.figma.com/ui-design-tool/"}
+          label={"Figma"}
+          image={figma}
+        />
+        <SkillSquare
+          link={"https://testing-library.com/docs/react-testing-library/intro/"}
+          label={"React Testing Library"}
+          image={rtl}
+        />
       </SquaresContainer>
     </Container>
   );

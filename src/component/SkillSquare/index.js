@@ -1,12 +1,14 @@
 import React from "react";
-import {  Square, ZoomSquare, TextSquare } from "./styled";
+import { Square, ZoomSquare, TextSquare } from "./styled";
 
-function SkillSquare({ className, label, image }) {
+function SkillSquare({ className, label, image, link }) {
   return (
-      <Square className={className}>
-        <TextSquare>{label}</TextSquare>
-        <ZoomSquare src={image} alt="jsImage" />
-      </Square>
+    <Square className={className}>
+      <TextSquare href={link}>
+         {label}
+      </TextSquare>
+      <ZoomSquare src={image} alt="jsImage" />
+    </Square>
   );
 }
 

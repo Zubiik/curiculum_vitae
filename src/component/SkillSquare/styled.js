@@ -41,7 +41,7 @@ export const ZoomSquare = styled.img`
   position: relative;
 `;
 
-export const TextSquare = styled.div`
+export const TextSquare = styled.a`
   font-size: 20px;
   background: rgba(94, 120, 135, 0.52);
   display: flex;
