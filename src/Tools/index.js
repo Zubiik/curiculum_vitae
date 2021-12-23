@@ -24,54 +24,72 @@ function Tools() {
   return (
     <Container>
       <SquaresContainer>
-        <SkillSquare
-          link={"https://www.javascript.com/"}
-          label={"JavaScript"}
-          image={jsImage}
-        />
-        <SkillSquare
-          link={"https://fr.reactjs.org/"}
-          label={"React"}
-          image={reactImage}
-        />
-        <SkillSquare
-          link={"https://github.com/Zubiik"}
-          label={"Git Hub"}
-          image={githubImage}
-        />
-        <SkillSquare
-          link={"https://jestjs.io/fr/"}
-          label={"Jest"}
-          image={jestImage}
-        />
-        <SkillSquare label={"CSS"} image={cssImage} />
-        <SkillSquare label={"Html"} image={htmlImage} />
-        <SkillSquare
-          link={"https://storybook.js.org/"}
-          label={"Storybook"}
-          image={storyBook}
-        />
-        <SkillSquare
-          link={"https://cucumber.io/"}
-          label={"Cucumber"}
-          image={cucumber}
-        />
-        <SkillSquare link={"https://expo.dev/"} label={"Expo"} image={expo} />
-        <SkillSquare
-          link={"https://emotion.sh/docs/introduction"}
-          label={"Emotion"}
-          image={emotion}
-        />
-        <SkillSquare
-          link={"https://www.figma.com/ui-design-tool/"}
-          label={"Figma"}
-          image={figma}
-        />
-        <SkillSquare
-          link={"https://testing-library.com/docs/react-testing-library/intro/"}
-          label={"React Testing Library"}
-          image={rtl}
-        />
+        <div>
+          <SkillSquare
+            link={"https://www.javascript.com/"}
+            label={"JavaScript"}
+            image={jsImage}
+          />
+          <SkillSquare
+            link={"https://www.figma.com/ui-design-tool/"}
+            label={"Figma"}
+            image={figma}
+          />
+          <SkillSquare
+            link={"https://developer.mozilla.org/fr/docs/Web/HTML"}
+            label={"Html"}
+            image={htmlImage}
+          />
+          <SkillSquare
+            link={"https://github.com/Zubiik"}
+            label={"Git Hub"}
+            image={githubImage}
+          />
+        </div>
+        <div>
+          <SkillSquare
+            link={"https://developer.mozilla.org/fr/docs/Web/CSS"}
+            label={"CSS"}
+            image={cssImage}
+          />
+
+          <SkillSquare
+            link={"https://fr.reactjs.org/"}
+            label={"React"}
+            image={reactImage}
+          />
+          <SkillSquare
+            link={"https://storybook.js.org/"}
+            label={"Storybook"}
+            image={storyBook}
+          />
+          <SkillSquare
+            link={"https://cucumber.io/"}
+            label={"Cucumber"}
+            image={cucumber}
+          />
+        </div>
+        <div>
+          <SkillSquare link={"https://expo.dev/"} label={"Expo"} image={expo} />
+          <SkillSquare
+            link={"https://emotion.sh/docs/introduction"}
+            label={"Emotion"}
+            image={emotion}
+          />
+          <SkillSquare
+            link={"https://jestjs.io/fr/"}
+            label={"Jest"}
+            image={jestImage}
+          />
+
+          <SkillSquare
+            link={
+              "https://testing-library.com/docs/react-testing-library/intro/"
+            }
+            label={"React Testing Library"}
+            image={rtl}
+          />
+        </div>
       </SquaresContainer>
     </Container>
   );
