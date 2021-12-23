@@ -56,5 +56,5 @@ export const ImgCustom = styled.img`
 `;
 export const TextCustom = styled.span`
   font-size: 30px;
-  color: ${({ theme }) => theme.lightColors.beauBlue};
+  color: ${({ theme }) => theme.colors.emerald};
 `;

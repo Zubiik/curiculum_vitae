@@ -1,5 +1,7 @@
 import React from "react";
 import shareMmap from "../images/Share-my-map-ICON.png";
+import authentic from "../images/authentic-ICON.png";
+
 import pokedex from "../images/Pokedex-ICON.png";
 import {
   Container,
@@ -22,7 +24,10 @@ function Portfolio({ text }) {
           <img src={shareMmap} alt="phonesView" />
           <LeftTextSection>
             <TextCustom>Share My Map</TextCustom>
-            <p>Application permettant de partager ses maps favorites</p>
+            <p>Application mobile listant les map customisé de google map grace a une communauté genre park4night
+              Liste des cartes
+              Partage des liens
+            </p>
           </LeftTextSection>
         </SectionShadowContainer>
       </SectionContainer>
@@ -31,7 +36,7 @@ function Portfolio({ text }) {
         <SectionWithoutShadowContainer>
           <RightTextSection>
             <TextCustom>Pokedex</TextCustom>
-            <p>Site permettant d'acceder aux stats de tout les pokemons</p>
+            <p>Page web copiant le pokedex du jeu Pokemon permettant de connaitre différentes informations d'un pokémon tel que leur statistique de combat, évolution ect...</p>
           </RightTextSection>
           <ImgCustom src={pokedex} alt="podexView" />
         </SectionWithoutShadowContainer>
@@ -39,10 +44,10 @@ function Portfolio({ text }) {
 
       <SectionContainer>
         <SectionShadowContainer>
-          <img src={shareMmap} alt="phoneView" />
+          <img src={authentic} alt="phoneView" />
           <LeftTextSection>
-            <TextCustom>find Water</TextCustom>
-            <p>Application mobile répertoriant tout les points d'eaux sur une carte</p>
+            <TextCustom>Authentic fleurs</TextCustom>
+            <p>site web commercant créer via la plateforme Wix pour un fleuriste </p>
           </LeftTextSection>
         </SectionShadowContainer>
       </SectionContainer>
