@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-height: 600px;
+  min-height: 500px;
   @media all and (max-width: 480px) {
     display: flex;
     flex-direction: column;
@@ -16,7 +16,6 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 50%;
-  align-items: center;
 `;
 
 export const ProfilPicture = styled.img`
@@ -25,7 +24,11 @@ export const ProfilPicture = styled.img`
 `;
 
 export const TextCustom = styled.div`
-  color: #c37455;
+  color: ${({ theme }) => theme.colors.copperRed};
   font-size: 40px;
   font-weight: bold;
+`;
+export const SmallerTextCustom = styled.p`
+  color: ${({ theme }) => theme.colors.slateGray};
+  font-size: 25px;
 `;
