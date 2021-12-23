@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  background-color: ${({ theme }) => theme.colors.gunMetalAlpha};
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   display: flex;
   width: 100%;
-  height: 90px;
+  height: 80px;
   align-items: center;
   position: fixed;
   top: 0px;
@@ -16,12 +16,14 @@ export const Container = styled.div`
   }
 `;
 export const TextCustom = styled.span`
-  color: ${({ theme }) => theme.lightColors.isabeline};
+  color: #ff7f00 ;
+  
   @media all and (max-width: 480px) {
     display: none;
   }
 `;
 export const ButtonsSection = styled.div`
+
   width: 80%;
   display: flex;
   justify-content: space-around;

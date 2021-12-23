@@ -1,14 +1,17 @@
 import styled from "@emotion/styled";
 
 export const CustomButton = styled.div`
-  border: ${({ theme }) => theme.lightColors.lightWhite};
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-height: 50px;
   max-height: 50px;
   min-width: 100px;
   margin: 4px;
   font-size: 18px;
 
-  color: ${({ theme }) => theme.lightColors.lightWhite};
+  color: ${({ theme }) => theme.colors.gunMetal};
+
   & {
     transition-duration: 0.4s;
   }

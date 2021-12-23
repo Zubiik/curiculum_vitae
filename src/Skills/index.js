@@ -32,9 +32,7 @@ function Skills() {
           <TextContainer>
             <TitleCustom>Front-End</TitleCustom>
             <p>
-              Création de maquettes XD et HTML, ainsi que de prototypes
-              fonctionnels. Conception centrée utilisateur selon les règles d'UX
-              lors de la création d'une interface utilisateur.
+             ?????
             </p>
           </TextContainer>
           <BoxOfParts>
@@ -76,9 +74,7 @@ function Skills() {
           <TextContainer>
             <GoldTitleCustom>Design</GoldTitleCustom>
             <p>
-              Création de maquettes XD et HTML, ainsi que de prototypes
-              fonctionnels. Conception centrée utilisateur selon les règles d'UX
-              lors de la création d'une interface utilisateur.
+            ???
             </p>
           </TextContainer>
           <BoxOfParts>

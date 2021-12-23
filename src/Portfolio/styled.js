@@ -35,10 +35,10 @@ export const SectionWithoutShadowContainer = styled.div`
 `;
 
 export const LeftTextSection = styled.p`
-  margin-left:20px;
+  margin-left: 40px;
 `;
 export const RightTextSection = styled.p`
-  margin-right:20px;
+  margin-right: 40px;
   text-align: right;
   @media all and (max-width: 480px) {
     text-align: left;
