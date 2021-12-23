@@ -24,7 +24,6 @@ function Tools() {
   return (
     <Container>
       <SquaresContainer>
-        <div>
           <SkillSquare
             link={"https://www.javascript.com/"}
             label={"JavaScript"}
@@ -45,8 +44,7 @@ function Tools() {
             label={"Git Hub"}
             image={githubImage}
           />
-        </div>
-        <div>
+
           <SkillSquare
             link={"https://developer.mozilla.org/fr/docs/Web/CSS"}
             label={"CSS"}
@@ -68,8 +66,7 @@ function Tools() {
             label={"Cucumber"}
             image={cucumber}
           />
-        </div>
-        <div>
+        
           <SkillSquare link={"https://expo.dev/"} label={"Expo"} image={expo} />
           <SkillSquare
             link={"https://emotion.sh/docs/introduction"}
@@ -89,7 +86,6 @@ function Tools() {
             label={"React Testing Library"}
             image={rtl}
           />
-        </div>
       </SquaresContainer>
     </Container>
   );

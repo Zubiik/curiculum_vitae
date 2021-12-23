@@ -14,14 +14,15 @@ export const Container = styled.div`
 `;
 
 export const SquaresContainer = styled.div`
+  width: 90%;
+  
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 40%;
   margin: 40px;
   @media all and (max-width: 480px) {
     width: 100%;
-    margin:0;
+    margin: 0;
   }
 `;
 export const Square = styled.div`

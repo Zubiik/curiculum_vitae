@@ -8,5 +8,5 @@ export const Container = styled.div`
   height: 100px;
   align-items: center;
   margin-top: 50px;
-  color:${({theme}) => theme.lightColors.isabeline}
+  color:${({theme}) => theme.lightColors.lightWhite}
 `;

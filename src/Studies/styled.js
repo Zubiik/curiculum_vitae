@@ -4,7 +4,7 @@ export const Container = styled.div`
   padding: 40px;
   display: flex;
   justify-content: space-around;
-  background-color: ${({ theme }) => theme.lightColors.isabeline};
+  background-color: ${({ theme }) => theme.lightColors.lightWhite};
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 `;
 export const ParcoursContainer = styled.div`

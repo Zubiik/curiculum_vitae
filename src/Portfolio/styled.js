@@ -9,7 +9,7 @@ export const Container = styled.section`
   }
 `;
 export const SectionContainer = styled.div`
-  background: ${({ theme }) => theme.lightColors.isabeline};
+  background: ${({ theme }) => theme.lightColors.lightWhite};
   padding: 40px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 `;
