@@ -1,6 +1,5 @@
 import React from "react";
-import Box from "../component/Box";
-import { Container, ParcoursContainer, ImageCustom } from "./styled";
+import { Container, ParcoursContainer, ImageCustom, BoxCustom } from "./styled";
 import figmaImage from "../images/ex.png";
 
 function Studies() {
@@ -8,21 +7,20 @@ function Studies() {
     <Container>
       <ParcoursContainer>
         <ImageCustom src={figmaImage} alt="i" />
-        <Box>
+        <BoxCustom>
           <p>
-            Where does it come from? Contrary to popular belief, Lorem Ipsum is
-            not simply random text. It has roots in a piece of classical Latin
-            literature from 45 BC, making it over 2000 years old. Richard
-            McClintock, a Latin professor at Where does it come from? Contrary
-            to popular belief, Lorem Ipsum is not simply random text. It has
-            roots in a piece of classical Latin literature from 45 BC, making it
-            over 2000 years old. Richard McClintock, a Latin professor at Where
-            does it come from? Contrary to popular belief, Lorem Ipsum is not
-            simply random text. It has roots in a piece of classical Latin
-            literature from 45 BC, making it over 2000 years old. Richard
-            McClintock, a Latin professor at
+            Développeuse web junior, je me suis formée durant 1 an en
+            autoditacte Après une formation dans le tourisme j’ai souhaitée me
+            reconvertir dans le métier de développeuse web. En une année de
+            formation j’ai pu me penché sur /voir/ front end quelque notion en
+            Design environnement de test.
+            <p>
+              Pour mon apprentissage j’ai pu me servir de cours en ligne tel que
+              open classroom udemy et en parrallèle réaliser des projets
+              personnel visible dans mon porfolio.
+            </p>
           </p>
-        </Box>
+        </BoxCustom>
       </ParcoursContainer>
     </Container>
   );
