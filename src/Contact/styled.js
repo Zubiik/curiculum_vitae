@@ -42,16 +42,5 @@ export const GreyTextCustom = styled(InlineTextCustom)`
 export const ImageCustom = styled.div``;
 
 export const ToolTip = styled.span`
-  opacity: 0%;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  position: absolute;
-  z-index: 1;
-  :checked {
-    opacity: 100%;
-  }
+
 `;

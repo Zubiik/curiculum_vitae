@@ -21,7 +21,7 @@ export const SquaresContainer = styled.div`
   margin: 40px;
   @media all and (max-width: 480px) {
     width: 100%;
-    margin:0;
+    margin: 0;
   }
 `;
 export const Square = styled.div`
@@ -42,7 +42,8 @@ export const ZoomSquare = styled.img`
 `;
 
 export const TextSquare = styled.a`
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: bold;
   background: rgba(94, 120, 135, 0.52);
   display: flex;
   align-items: center;
