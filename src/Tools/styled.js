@@ -12,9 +12,15 @@ export const Container = styled.div`
     align-items: flex-start;
   }
 `;
+export const LineSquaresCustom = styled.div`
+  display: flex;
+  @media all and (max-width: 480px) {
+    flex-wrap: wrap;
+  }
+`;
 
 export const SquaresContainer = styled.div`
-  width: 90%; 
+  width: 90%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -23,5 +29,4 @@ export const SquaresContainer = styled.div`
     width: 100%;
     margin: 0;
   }
-
 `;

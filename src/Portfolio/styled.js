@@ -64,13 +64,14 @@ export const TextCustom = styled.span`
   color: ${({ theme }) => theme.colors.emerald};
 `;
 export const TechnoCustom = styled.p`
+  font-size: 12px;
   min-width: 50px;
   max-width: 100px;
   text-align: center;
   font-weight: bold;
   margin-right: 10px;
   padding: 10px;
-  background-color: ${({ theme }) => theme.colors.slateGray};
+  background-color: ${({ theme }) => theme.colors.emerald};
   color: ${({ theme }) => theme.lightColors.isabeline};
   border-radius: 20px;
   @media all and (max-width: 480px) {

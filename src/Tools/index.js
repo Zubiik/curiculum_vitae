@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  Container,
-  SquaresContainer,
- 
-} from "./styled";
+import { Container, SquaresContainer, LineSquaresCustom } from "./styled";
 import jsImage from "../images/js.png";
 import reactImage from "../images/react.png";
 import htmlImage from "../images/html.png";
@@ -22,6 +18,7 @@ function Tools() {
   return (
     <Container>
       <SquaresContainer>
+        <LineSquaresCustom>
           <SkillSquare
             link={"https://www.javascript.com/"}
             label={"JavaScript"}
@@ -48,7 +45,16 @@ function Tools() {
             label={"CSS"}
             image={cssImage}
           />
+          <SkillSquare
+            link={
+              "https://testing-library.com/docs/react-testing-library/intro/"
+            }
+            label={"React Testing Library"}
+            image={rtl}
+          />
+        </LineSquaresCustom>
 
+        <LineSquaresCustom>
           <SkillSquare
             link={"https://fr.reactjs.org/"}
             label={"React"}
@@ -64,26 +70,18 @@ function Tools() {
             label={"Cucumber"}
             image={cucumber}
           />
-        
           <SkillSquare link={"https://expo.dev/"} label={"Expo"} image={expo} />
           <SkillSquare
             link={"https://emotion.sh/docs/introduction"}
             label={"Emotion"}
             image={emotion}
-          />
+          />{" "}
           <SkillSquare
             link={"https://jestjs.io/fr/"}
             label={"Jest"}
             image={jestImage}
           />
-
-          <SkillSquare
-            link={
-              "https://testing-library.com/docs/react-testing-library/intro/"
-            }
-            label={"React Testing Library"}
-            image={rtl}
-          />
+        </LineSquaresCustom>
       </SquaresContainer>
     </Container>
   );
