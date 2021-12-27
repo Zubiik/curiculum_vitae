@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 export const TextCustom = styled.span`
   color: ${({ theme }) => theme.colors.copperRed};
-
+  font-weight: bold;
   @media all and (max-width: 480px) {
     display: none;
   }

@@ -23,8 +23,5 @@ export const SquaresContainer = styled.div`
     width: 100%;
     margin: 0;
   }
-  @media all and (max-width: 1060px) {
-    width: 80%;
-  
-  }
+
 `;
