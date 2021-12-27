@@ -5,7 +5,6 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   @media all and (max-width: 480px) {
-    width: 80%;
     
   }
 `;
