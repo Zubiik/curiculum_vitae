@@ -7,15 +7,13 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  @media all and (max-width: 480px) {
-    display: flex;
-    align-items: flex-start;
-  }
+ 
 `;
 export const LineSquaresCustom = styled.div`
   display: flex;
   @media all and (max-width: 480px) {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
   }
 `;
 
@@ -26,7 +24,8 @@ export const SquaresContainer = styled.div`
   flex-wrap: wrap;
   margin: 40px;
   @media all and (max-width: 480px) {
-    width: 100%;
     margin: 0;
+    display: flex;
+    justify-content: center;
   }
 `;

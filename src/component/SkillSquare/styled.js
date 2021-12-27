@@ -15,12 +15,17 @@ export const Square = styled.div`
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
   }
+  @media all and (max-width: 480px) {
+    width: 100px;
+    height: 100px;
+  }
 `;
 
 export const ZoomSquare = styled.img`
   position: relative;
   width: 100px;
   height: 100px;
+
 `;
 
 export const TextSquare = styled.a`
@@ -38,5 +43,9 @@ export const TextSquare = styled.a`
   color: ${({ theme }) => theme.lightColors.lightWhite};
   &:hover {
     opacity: 100%;
+  }
+  @media all and (max-width: 480px) {
+    width: 100px;
+    height: 100px;
   }
 `;
