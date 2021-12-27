@@ -72,7 +72,7 @@ export const TechnoCustom = styled.p`
   margin-right: 10px;
   padding: 10px;
   background-color: ${({ theme }) => theme.colors.emerald};
-  color: ${({ theme }) => theme.lightColors.isabeline};
+  color: ${({ theme }) => theme.lightColors.lightWhite};
   border-radius: 20px;
   @media all and (max-width: 480px) {
     display: none;
