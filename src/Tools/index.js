@@ -2,9 +2,7 @@ import React from "react";
 import {
   Container,
   SquaresContainer,
-  Square,
-  ZoomSquare,
-  TextSquare,
+ 
 } from "./styled";
 import jsImage from "../images/js.png";
 import reactImage from "../images/react.png";

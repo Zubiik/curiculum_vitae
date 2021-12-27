@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import Box from "../component/Box";
+import React from "react";
 import {
   ImageCustom,
   PinkBoxCustom,

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import NavButton from "../component/Button/Index";
 import { Container, TextCustom, ButtonsSection, TitleCustom } from "./styled";
 
