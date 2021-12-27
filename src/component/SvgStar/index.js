@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container } from "./styled";
 
 function Star({ className }) {
-
   return (
     <Container>
       <svg
