@@ -36,6 +36,11 @@ export const SectionWithoutShadowContainer = styled.div`
 
 export const LeftTextSection = styled.p`
   margin-left: 40px;
+  @media all and (max-width: 480px) {
+    text-align: left;
+    margin-left: unset;
+
+  }
 `;
 export const RightTextSection = styled.p`
   margin-right: 40px;
