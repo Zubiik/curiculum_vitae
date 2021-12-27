@@ -6,6 +6,7 @@ export const Container = styled.section`
   flex-direction: column;
   @media all and (max-width: 480px) {
     width: 80%;
+    
   }
 `;
 export const SectionContainer = styled.div`
@@ -30,7 +31,7 @@ export const SectionWithoutShadowContainer = styled.div`
   justify-content: flex-end;
   @media all and (max-width: 480px) {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 `;
 
@@ -68,6 +69,9 @@ export const TechnoCustom = styled.p`
   background-color: ${({ theme }) => theme.colors.slateGray};
   color: ${({ theme }) => theme.lightColors.isabeline};
   border-radius: 20px;
+  @media all and (max-width: 480px) {
+    display: none;
+  }
 `;
 export const RightTechnoCustom = styled(TechnoCustom)`
   margin-left: 10px;

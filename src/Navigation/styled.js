@@ -27,8 +27,7 @@ export const ButtonsSection = styled.div`
   width: 80%;
   display: flex;
   justify-content: space-around;
-  @media all and (max-width: 480px) {
-  }
+ 
 `;
 
 export const TitleCustom = styled.div`

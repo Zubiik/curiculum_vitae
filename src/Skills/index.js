@@ -35,6 +35,7 @@ function Skills() {
              Developpement de la partie front-end de sites internet et d'application mobile.
             </p>
           </TextContainer>
+          
           <BoxOfParts>
             <LeftPart>
               <StarsContainer>
