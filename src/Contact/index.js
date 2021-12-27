@@ -16,8 +16,8 @@ import tippy from "tippy.js";
 
 const Contact = () => {
 
-  const textToCopy = "elodiefrappat@gmail.com";
-  const phoneToCopy = "06.06.06.25.02";
+  const textToCopy = "elodiefrappat08@gmail.com";
+  const phoneToCopy = "06.25.09.99.12";
 
   const copyHandler = () => {
 
