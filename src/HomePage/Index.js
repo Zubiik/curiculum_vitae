@@ -18,9 +18,9 @@ function HomePage() {
       <div id="competences"></div>
       <Title>COMPETENCES</Title>
       <Skills />
-      <div id="parcours"></div>
+      {/* <div id="parcours"></div>
       <Title>PARCOURS</Title>
-      <Studies />
+      <Studies /> */}
       <div id="portfolio"></div>
       <Title>PORTFOLIO</Title>
       <Portfolio />

@@ -58,3 +58,25 @@ export const TextCustom = styled.span`
   font-size: 30px;
   color: ${({ theme }) => theme.colors.emerald};
 `;
+export const TechnoCustom = styled.p`
+  min-width: 50px;
+  max-width: 100px;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: ${({ theme }) => theme.colors.slateGray};
+  color: ${({ theme }) => theme.lightColors.isabeline};
+  border-radius: 20px;
+`;
+export const RightTechnoCustom = styled(TechnoCustom)`
+  margin-left: 10px;
+  margin-right: 0;
+`;
+export const ContainerTechno = styled.div`
+  display: flex;
+`;
+export const ContainerTechnoRight = styled.div`
+  display: flex;
+  flex-direction: row-reverse;
+`;

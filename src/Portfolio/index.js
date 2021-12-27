@@ -12,22 +12,30 @@ import {
   TextCustom,
   SectionShadowContainer,
   RightSectionContainer,
-  SectionWithoutShadowContainer
+  SectionWithoutShadowContainer,
+  TechnoCustom,
+  ContainerTechno,
+  ContainerTechnoRight,
+  RightTechnoCustom
 } from "./styled";
 
 function Portfolio({ text }) {
   return (
     <Container>
-  
       <SectionContainer>
         <SectionShadowContainer>
           <img src={shareMmap} alt="phonesView" />
           <LeftTextSection>
             <TextCustom>Share My Map</TextCustom>
-            <p>Application mobile listant les map customisé de google map grace a une communauté genre park4night
-              Liste des cartes
-              Partage des liens
+            <p>
+              Application mobile listant les map customisé de google map grace a
+              une communauté genre park4night Liste des cartes Partage des liens
             </p>
+            <ContainerTechno>
+              <TechnoCustom>React Native</TechnoCustom>
+              <TechnoCustom>Expo</TechnoCustom>
+              <TechnoCustom>Figma</TechnoCustom>
+            </ContainerTechno>
           </LeftTextSection>
         </SectionShadowContainer>
       </SectionContainer>
@@ -36,7 +44,15 @@ function Portfolio({ text }) {
         <SectionWithoutShadowContainer>
           <RightTextSection>
             <TextCustom>Pokedex</TextCustom>
-            <p>Page web copiant le pokedex du jeu Pokemon permettant de connaitre différentes informations d'un pokémon tel que leur statistique de combat, évolution ect...</p>
+            <p>
+              Page web copiant le pokedex du jeu Pokemon permettant de connaitre
+              différentes informations d'un pokémon tel que leur statistique de
+              combat, évolution ect...
+            </p>
+            <ContainerTechnoRight>
+              <RightTechnoCustom>React</RightTechnoCustom>
+              <RightTechnoCustom>Figma</RightTechnoCustom>
+            </ContainerTechnoRight>
           </RightTextSection>
           <ImgCustom src={pokedex} alt="podexView" />
         </SectionWithoutShadowContainer>
@@ -47,7 +63,9 @@ function Portfolio({ text }) {
           <img src={authentic} alt="phoneView" />
           <LeftTextSection>
             <TextCustom>Authentic fleurs</TextCustom>
-            <p>site web commercant créer via la plateforme Wix pour un fleuriste </p>
+            <p>
+              site web commercant créer via la plateforme Wix pour un fleuriste{" "}
+            </p>
           </LeftTextSection>
         </SectionShadowContainer>
       </SectionContainer>

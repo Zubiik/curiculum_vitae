@@ -19,8 +19,8 @@ export const Square = styled.div`
 
 export const ZoomSquare = styled.img`
   position: relative;
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
 `;
 
 export const TextSquare = styled.a`
@@ -30,8 +30,8 @@ export const TextSquare = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   z-index: 1;
   opacity: 0;
   position: absolute;

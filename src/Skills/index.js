@@ -32,14 +32,14 @@ function Skills() {
           <TextContainer>
             <TitleCustom>Front-End</TitleCustom>
             <p>
-             ?????
+             Developpement de la partie front-end de sites internet et d'application mobile.
             </p>
           </TextContainer>
           <BoxOfParts>
             <LeftPart>
               <StarsContainer>
                 <SkillLabel>React</SkillLabel>
-                <PinkStars level={[1, 2, 3, 4, 5]} />
+                <PinkStars level={[1, 2, 3, 4, null]} />
               </StarsContainer>
               <StarsContainer>
                 <SkillLabel>Html 5</SkillLabel>
@@ -53,7 +53,7 @@ function Skills() {
             <RightPart>
               <StarsContainer>
                 <SkillLabel>React native</SkillLabel>
-                <PinkStars level={[1, 2, 3, null, null]} />
+                <PinkStars level={[1, 2, 3, 4, null]} />
               </StarsContainer>
               <StarsContainer>
                 <SkillLabel>React testing library</SkillLabel>
@@ -74,7 +74,7 @@ function Skills() {
           <TextContainer>
             <GoldTitleCustom>Design</GoldTitleCustom>
             <p>
-            ???
+            Création de maquettes Figma.
             </p>
           </TextContainer>
           <BoxOfParts>
@@ -92,7 +92,7 @@ function Skills() {
             <RightPart>
               <StarsContainer>
                 <SkillLabel>Prototypage</SkillLabel>
-                <GreenStars level={[1, null, null, null, null]} />
+                <GreenStars level={[1, 2, 3, null, null]} />
               </StarsContainer>
             </RightPart>
           </BoxOfParts>
