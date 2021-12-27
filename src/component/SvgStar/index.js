@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Container } from "./styled";
 
 function Star({ className }) {
-  const [color, setColor] = useState("FFFF");
 
   return (
     <Container>
