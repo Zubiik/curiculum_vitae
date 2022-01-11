@@ -11,7 +11,7 @@ function Header() {
         <TextCustom>{circleText}</TextCustom>
         <SmallerTextCustom>
           Actuellement à la recherche d'un nouvel emploi, je suis intéressée par
-          les postes de : <SmallerTextCustom>Développeuse front-end & Intégrateur web</SmallerTextCustom>
+          les postes de : <SmallerTextCustom>Développeuse front-end & Intégratrice web</SmallerTextCustom>
         </SmallerTextCustom>
       </TextContainer>
       <ProfilPicture src={pdp} alt="PDP" />

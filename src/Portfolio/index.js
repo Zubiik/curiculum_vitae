@@ -16,7 +16,7 @@ import {
   TechnoCustom,
   ContainerTechno,
   ContainerTechnoRight,
-  RightTechnoCustom
+  RightTechnoCustom,
 } from "./styled";
 
 function Portfolio({ text }) {
@@ -28,8 +28,10 @@ function Portfolio({ text }) {
           <LeftTextSection>
             <TextCustom>Share My Map</TextCustom>
             <p>
-              Application mobile listant les map customisé de google map grace a
-              une communauté genre park4night Liste des cartes Partage des liens
+              Application mobile listant les cartes favorites dans google map.
+              Un utilisateur peut ajouter un lien vers une carte customisée afin
+              de participer au dévelloppement de l'application. Il peut aussi
+              créer sa propre liste de favoris.
             </p>
             <ContainerTechno>
               <TechnoCustom>React Native</TechnoCustom>
@@ -45,9 +47,9 @@ function Portfolio({ text }) {
           <RightTextSection>
             <TextCustom>Pokedex</TextCustom>
             <p>
-              Page web copiant le pokedex du jeu Pokemon permettant de connaitre
-              différentes informations d'un pokémon tel que leur statistique de
-              combat, évolution ect...
+              Page web copiant le pokedex du jeu Pokémon. Permet de connaitre
+              différentes informations d'un pokémon tel que ses statistiques de
+              combat, ses évolutions ect...
             </p>
             <ContainerTechnoRight>
               <RightTechnoCustom>React</RightTechnoCustom>
@@ -64,7 +66,8 @@ function Portfolio({ text }) {
           <LeftTextSection>
             <TextCustom>Authentic fleurs</TextCustom>
             <p>
-              site web commercant créer via la plateforme Wix pour un fleuriste{" "}
+              site web commercant créer via la plateforme Wix pour un fleuriste.
+              
             </p>
           </LeftTextSection>
         </SectionShadowContainer>
