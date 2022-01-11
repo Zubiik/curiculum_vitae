@@ -66,7 +66,7 @@ function Portfolio({ text }) {
           <LeftTextSection>
             <TextCustom>Authentic fleurs</TextCustom>
             <p>
-              site web commercant créer via la plateforme Wix pour un fleuriste.
+              Site web commercant créer via la plateforme Wix pour un fleuriste.
               
             </p>
           </LeftTextSection>
