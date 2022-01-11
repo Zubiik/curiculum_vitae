@@ -32,7 +32,7 @@ function Skills() {
           <TextContainer>
             <TitleCustom>Front-End</TitleCustom>
             <p>
-             Developpement de la partie front-end de sites internet et d'application mobile.
+             Développement de la partie front-end de sites internet et d'application mobile.
             </p>
           </TextContainer>
           
