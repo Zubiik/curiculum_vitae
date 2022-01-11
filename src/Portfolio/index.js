@@ -28,7 +28,7 @@ function Portfolio({ text }) {
           <LeftTextSection>
             <TextCustom>Share My Map</TextCustom>
             <p>
-              Application mobile listant les cartes favorites dans google map.
+              Application mobile communautaire listant les cartes favorites dans google map.
               Un utilisateur peut ajouter un lien vers une carte customisée afin
               de participer au dévelloppement de l'application. Il peut aussi
               créer sa propre liste de favoris.
