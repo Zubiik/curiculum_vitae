@@ -12,9 +12,9 @@ function Navigation() {
       </TitleCustom>
       <ButtonsSection>
 
-        <NavButton >
+        {/* <NavButton >
           <a href="#parcours"><p>Parcours</p></a>
-        </NavButton>
+        </NavButton> */}
         
         <NavButton>
           <a href="#portfolio"><p>Portfolio</p></a>
