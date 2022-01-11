@@ -3,7 +3,7 @@ import { Container, TextContainer, TextCustom, ProfilPicture, SmallerTextCustom 
 import pdp from "../images/photo.jpg";
 
 function Header() {
-  const circleText = "Developpeuse Web front-end ";
+  const circleText = "Développeuse Web front-end ";
 
   return (
     <Container>
