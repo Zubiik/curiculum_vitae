@@ -5,7 +5,6 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   @media all and (max-width: 480px) {
-    
   }
 `;
 export const SectionContainer = styled.div`
@@ -39,7 +38,6 @@ export const LeftTextSection = styled.p`
   @media all and (max-width: 480px) {
     text-align: left;
     margin-left: unset;
-
   }
 `;
 export const RightTextSection = styled.p`
@@ -89,3 +87,4 @@ export const ContainerTechnoRight = styled.div`
   display: flex;
   flex-direction: row-reverse;
 `;
+

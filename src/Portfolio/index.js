@@ -1,7 +1,7 @@
 import React from "react";
-import shareMmap from "../images/Share-my-map-ICON.png";
+import SiteLink from "../component/SiteLink";
+import netflixLike from "../images/netflixLike.png";
 import authentic from "../images/authentic-ICON.png";
-
 import pokedex from "../images/Pokedex-ICON.png";
 import {
   Container,
@@ -24,18 +24,17 @@ function Portfolio({ text }) {
     <Container>
       <SectionContainer>
         <SectionShadowContainer>
-          <img src={shareMmap} alt="phonesView" />
+          <img src={netflixLike} alt="phonesView" />
           <LeftTextSection>
-            <TextCustom>Share My Map</TextCustom>
-            <p>
-              Application mobile communautaire listant les cartes favorites dans google map.
-              Un utilisateur peut ajouter un lien vers une carte customisée afin
-              de participer au dévelloppement de l'application. Il peut aussi
-              créer sa propre liste de favoris.
-            </p>
+            <TextCustom>MDMB Frontend</TextCustom>
+            <SiteLink link={"https://netflix-copy-xi.vercel.app/"} />
+
+            <p>Site web herbergé via Vercel listant des films.</p>
             <ContainerTechno>
-              <TechnoCustom>React Native</TechnoCustom>
-              <TechnoCustom>Expo</TechnoCustom>
+              <TechnoCustom>React</TechnoCustom>
+              <TechnoCustom>Storybook</TechnoCustom>
+              <TechnoCustom>JEST</TechnoCustom>
+              <TechnoCustom>jsDoc</TechnoCustom>
               <TechnoCustom>Figma</TechnoCustom>
             </ContainerTechno>
           </LeftTextSection>
@@ -65,10 +64,13 @@ function Portfolio({ text }) {
           <img src={authentic} alt="phoneView" />
           <LeftTextSection>
             <TextCustom>Authentic fleurs</TextCustom>
+            <SiteLink link={"https://www.authenticfleurs.com/"} />
+
             <p>
               Site web commercant créer via la plateforme Wix pour un fleuriste.
-              
             </p>
+            <TechnoCustom>Wix</TechnoCustom>
+
           </LeftTextSection>
         </SectionShadowContainer>
       </SectionContainer>
