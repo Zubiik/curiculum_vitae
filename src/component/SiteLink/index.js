@@ -6,7 +6,7 @@ import { SiteIconCustom } from "./styled.js";
 function SiteLink({link}) {
 
   return (
-    <a href={link}>
+    <a href={link} target="blank">
       <SiteIconCustom src={siteIcon} alt="icone de site internet" />
     </a>
   );
