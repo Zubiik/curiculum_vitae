@@ -26,7 +26,6 @@ export const Container = styled.div`
   width: 100%;
   background-color: #f2f2f2;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 10px -15px;
-  
 `;
 
 export const BoxContainer = styled.div`
@@ -39,11 +38,10 @@ export const BoxContainer = styled.div`
   margin: 20px;
   border-radius: 20px;
   background: ${({ theme }) => theme.lightColors.lightWhite};
-   @media all and (max-width: 480px) {
-  margin: unset;
-  padding: 10px;
-
-  } 
+  @media all and (max-width: 480px) {
+    margin: unset;
+    padding: 10px;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -54,20 +52,25 @@ export const TextContainer = styled.div`
 export const StarsContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  width: 100%;
 `;
 
 export const LeftPart = styled.div`
   display: flex;
   flex-direction: column;
   width: 47%;
-  
+  @media all and (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 export const RightPart = styled.div`
   display: flex;
   flex-direction: column;
   width: 47%;
- 
+  @media all and (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 export const BoxOfParts = styled.div`
@@ -75,11 +78,9 @@ export const BoxOfParts = styled.div`
   justify-content: space-between;
   margin-top: 10px;
   @media all and (max-width: 480px) {
-  display: flex;
-  flex-direction: column;
-    
-  } 
-  
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const SkillLabel = styled.p`
@@ -89,11 +90,11 @@ export const SkillLabel = styled.p`
   text-overflow: ellipsis;
   font-weight: bold;
   @media all and (max-width: 480px) {
-  white-space: unset;
-  overflow: unset;
-  text-overflow: unset;
-  font-weight: bold;
-  } 
+    white-space: unset;
+    overflow: unset;
+    text-overflow: unset;
+    font-weight: bold;
+  }
 `;
 
 export const TitleSize = styled.h3`
@@ -131,7 +132,7 @@ export const ImageCustom = styled.img`
   height: 150px;
   @media all and (max-width: 480px) {
     display: none;
-  } 
+  }
 `;
 
 export const ImageAndBoxCustom = styled.div`
