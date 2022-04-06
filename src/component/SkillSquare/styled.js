@@ -25,7 +25,6 @@ export const ZoomSquare = styled.img`
   position: relative;
   width: 100px;
   height: 100px;
-
 `;
 
 export const TextSquare = styled.a`

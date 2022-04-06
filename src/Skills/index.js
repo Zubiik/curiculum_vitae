@@ -32,10 +32,11 @@ function Skills() {
           <TextContainer>
             <TitleCustom>Front-End</TitleCustom>
             <p>
-             Développement de la partie front-end de sites internet et d'application mobile.
+              Développement de la partie front-end de sites internet et
+              d'application mobile.
             </p>
           </TextContainer>
-          
+
           <BoxOfParts>
             <LeftPart>
               <StarsContainer>
@@ -74,9 +75,7 @@ function Skills() {
         <BoxContainer>
           <TextContainer>
             <GoldTitleCustom>Design</GoldTitleCustom>
-            <p>
-            Création de maquettes Figma.
-            </p>
+            <p>Création de maquettes Figma.</p>
           </TextContainer>
           <BoxOfParts>
             <LeftPart>

@@ -70,7 +70,6 @@ function Portfolio({ text }) {
               Site web commercant créer via la plateforme Wix pour un fleuriste.
             </p>
             <TechnoCustom>Wix</TechnoCustom>
-
           </LeftTextSection>
         </SectionShadowContainer>
       </SectionContainer>

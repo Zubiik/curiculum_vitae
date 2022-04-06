@@ -87,4 +87,3 @@ export const ContainerTechnoRight = styled.div`
   display: flex;
   flex-direction: row-reverse;
 `;
-

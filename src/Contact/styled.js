@@ -41,6 +41,4 @@ export const GreyTextCustom = styled(InlineTextCustom)`
 `;
 export const ImageCustom = styled.div``;
 
-export const ToolTip = styled.span`
-
-`;
+export const ToolTip = styled.span``;

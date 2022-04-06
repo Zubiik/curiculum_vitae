@@ -1,4 +1,5 @@
 import React from "react";
+import tippy from "tippy.js";
 import {
   ImageCustom,
   PinkBoxCustom,
@@ -12,21 +13,17 @@ import {
 } from "./styled";
 import phoneIcon from "../images/phoneIcon.png";
 import mailIcon from "../images/mailIcon.png";
-import tippy from "tippy.js";
 
 const Contact = () => {
-
   const textToCopy = "elodiefrappat08@gmail.com";
   const phoneToCopy = "06.25.09.99.12";
 
   const copyHandler = () => {
-
     navigator.clipboard.writeText(textToCopy);
     tippy("#myText", {
       trigger: "click",
-      theme: 'light',
+      theme: "light",
     });
-
   };
 
   return (
@@ -62,6 +59,6 @@ const Contact = () => {
       </PinkBoxCustom>
     </Container>
   );
-}
+};
 
 export default Contact;
