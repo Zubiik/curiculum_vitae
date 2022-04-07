@@ -1,5 +1,5 @@
-import React from "react";
-import { Square, ZoomSquare, TextSquare } from "./styled";
+import React from 'react';
+import { Square, ZoomSquare, TextSquare } from './styled';
 
 function SkillSquare({ className, label, image, link }) {
   return (

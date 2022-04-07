@@ -1,8 +1,9 @@
-import React from "react";
-import SiteLink from "../component/SiteLink";
-import netflixLike from "../images/netflixLike.png";
-import authentic from "../images/authentic-ICON.png";
-import pokedex from "../images/Pokedex-ICON.png";
+/* eslint-disable react/no-unescaped-entities */
+import React from 'react';
+import SiteLink from '../component/SiteLink';
+import netflixLike from '../images/netflixLike.png';
+import authentic from '../images/authentic-ICON.png';
+import pokedex from '../images/Pokedex-ICON.png';
 import {
   Container,
   ImgCustom,
@@ -17,9 +18,9 @@ import {
   ContainerTechno,
   ContainerTechnoRight,
   RightTechnoCustom,
-} from "./styled";
+} from './styled';
 
-function Portfolio({ text }) {
+function Portfolio() {
   return (
     <Container>
       <SectionContainer>
@@ -27,7 +28,7 @@ function Portfolio({ text }) {
           <img src={netflixLike} alt="phonesView" />
           <LeftTextSection>
             <TextCustom>MDMB Frontend</TextCustom>
-            <SiteLink link={"https://netflix-copy-xi.vercel.app/"} />
+            <SiteLink link={'https://netflix-copy-xi.vercel.app/'} />
 
             <p>Site web herbergé via Vercel listant des films.</p>
             <ContainerTechno>
@@ -64,7 +65,7 @@ function Portfolio({ text }) {
           <img src={authentic} alt="phoneView" />
           <LeftTextSection>
             <TextCustom>Authentic fleurs</TextCustom>
-            <SiteLink link={"https://www.authenticfleurs.com/"} />
+            <SiteLink link={'https://www.authenticfleurs.com/'} />
 
             <p>
               Site web commercant créer via la plateforme Wix pour un fleuriste.

@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import Box from "../component/Box";
+import styled from '@emotion/styled';
+import Box from '../component/Box';
 
 export const Container = styled.div`
   display: flex;

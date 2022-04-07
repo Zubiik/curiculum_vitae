@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import Star from "../SvgStar";
+import styled from '@emotion/styled';
+import Star from '../SvgStar';
 
 export const Container = styled.div`
   display: flex;
@@ -16,5 +16,4 @@ export const FillCustom = styled(Star)`
   margin-left: 5px;
   fill: white;
   stroke: ${({ theme }) => theme.colors.puce};
-  
 `;

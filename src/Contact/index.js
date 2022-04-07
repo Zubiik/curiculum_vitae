@@ -1,5 +1,5 @@
-import React from "react";
-import tippy from "tippy.js";
+import React from 'react';
+import tippy from 'tippy.js';
 import {
   ImageCustom,
   PinkBoxCustom,
@@ -10,19 +10,19 @@ import {
   GreenTextCustom,
   TextCustom,
   GreyTextCustom,
-} from "./styled";
-import phoneIcon from "../images/phoneIcon.png";
-import mailIcon from "../images/mailIcon.png";
+} from './styled';
+import phoneIcon from '../images/phoneIcon.png';
+import mailIcon from '../images/mailIcon.png';
 
 const Contact = () => {
-  const textToCopy = "elodiefrappat08@gmail.com";
-  const phoneToCopy = "06.25.09.99.12";
+  const textToCopy = 'elodiefrappat08@gmail.com';
+  const phoneToCopy = '06.25.09.99.12';
 
   const copyHandler = () => {
     navigator.clipboard.writeText(textToCopy);
-    tippy("#myText", {
-      trigger: "click",
-      theme: "light",
+    tippy('#myText', {
+      trigger: 'click',
+      theme: 'light',
     });
   };
 

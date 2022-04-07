@@ -1,6 +1,6 @@
-import React from "react";
-import NavButton from "../component/Button/Index";
-import { Container, TextCustom, ButtonsSection, TitleCustom } from "./styled";
+import React from 'react';
+import NavButton from '../component/Button/Index';
+import { Container, TextCustom, ButtonsSection, TitleCustom } from './styled';
 
 function Navigation() {
   return (

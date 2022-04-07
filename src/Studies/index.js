@@ -1,6 +1,6 @@
-import React from "react";
-import { Container, ParcoursContainer, ImageCustom, BoxCustom } from "./styled";
-import figmaImage from "../images/ex.png";
+import React from 'react';
+import { Container, ParcoursContainer, ImageCustom, BoxCustom } from './styled';
+import figmaImage from '../images/ex.png';
 
 function Studies() {
   return (

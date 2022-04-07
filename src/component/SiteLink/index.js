@@ -1,10 +1,8 @@
-import React from "react";
-import siteIcon from "../../images/siteIcon.png";
-import { SiteIconCustom } from "./styled.js";
+import React from 'react';
+import siteIcon from '../../images/siteIcon.png';
+import { SiteIconCustom } from './styled';
 
-
-function SiteLink({link}) {
-
+function SiteLink({ link }) {
   return (
     <a href={link} target="blank">
       <SiteIconCustom src={siteIcon} alt="icone de site internet" />

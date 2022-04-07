@@ -1,13 +1,13 @@
-import React from "react";
-import Navigation from "../Navigation";
-import Header from "../Header";
-import { Container } from "./styled";
-import Portfolio from "../Portfolio";
-import Tools from "../Tools";
-import Contact from "../Contact";
-import Title from "../component/Title";
-import Footer from "../Footer";
-import Skills from "../Skills";
+import React from 'react';
+import Navigation from '../Navigation';
+import Header from '../Header';
+import { Container } from './styled';
+import Portfolio from '../Portfolio';
+import Tools from '../Tools';
+import Contact from '../Contact';
+import Title from '../component/Title';
+import Footer from '../Footer';
+import Skills from '../Skills';
 
 function HomePage() {
   return (

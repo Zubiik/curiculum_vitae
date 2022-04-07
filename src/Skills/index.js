@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+import React from 'react';
 import {
   BoxContainer,
   TitleCustom,
@@ -17,12 +18,12 @@ import {
   BoxOfParts,
   SkillLabel,
   TextContainer,
-} from "./styled";
-import PinkStars from "../component/PinkStars";
-import GreenStars from "../component/GreenStars";
-import frontEndImg from "../images/front-end.png";
-import design from "../images/design-icon.png";
-import workflow from "../images/workflow.png";
+} from './styled';
+import PinkStars from '../component/PinkStars';
+import GreenStars from '../component/GreenStars';
+import frontEndImg from '../images/front-end.png';
+import design from '../images/design-icon.png';
+import workflow from '../images/workflow.png';
 
 function Skills() {
   return (
@@ -32,8 +33,9 @@ function Skills() {
           <TextContainer>
             <TitleCustom>Front-End</TitleCustom>
             <p>
-              Développement de la partie front-end de sites internet et
-              d'application mobile.
+              Développement de la partie front-end de sites internet et //
+              eslint-disable-next-line react/no-unescaped-entities d'application
+              mobile.
             </p>
           </TextContainer>
 
