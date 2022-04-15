@@ -3,7 +3,7 @@ import { ThemeProvider } from '@emotion/react';
 import './App.css';
 import HomePage from './HomePage/Index';
 import { theme } from './theme';
-import './helpers/i18n';
+import './configs/i18n';
 
 function App() {
   return (

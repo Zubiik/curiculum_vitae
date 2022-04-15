@@ -9,7 +9,7 @@ import {
   SmallerTextCustom,
 } from './styled';
 import pdp from '../images/photo.jpg';
-import i18nConfig from '../helpers/i18n';
+import '../configs/i18n';
 
 function Header() {
   const { t } = useTranslation();
