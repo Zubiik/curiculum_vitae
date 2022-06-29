@@ -33,9 +33,8 @@ function Skills() {
           <TextContainer>
             <TitleCustom>Front-End</TitleCustom>
             <p>
-              Développement de la partie front-end de sites internet et //
-              eslint-disable-next-line react/no-unescaped-entities d'application
-              mobile.
+              Développement de la partie front-end de sites internet et
+              applications mobiles.
             </p>
           </TextContainer>
 
