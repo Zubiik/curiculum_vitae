@@ -10,7 +10,7 @@ i18n
     resources: {
       en: {
         translation: {
-          'job.name': 'COUCOU Elo',
+          'job.name': 'Elodie Frappat',
         },
       },
     },
