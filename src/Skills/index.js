@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 import {
   BoxContainer,
   TitleCustom,
@@ -26,16 +28,15 @@ import design from '../images/design-icon.png';
 import workflow from '../images/workflow.png';
 
 function Skills() {
+  const { t } = useTranslation();
+
   return (
     <Container>
       <ImageAndBoxCustom>
         <BoxContainer>
           <TextContainer>
             <TitleCustom>Front-End</TitleCustom>
-            <p>
-              Développement de la partie front-end de sites internet et
-              applications mobiles.
-            </p>
+            <p>{t('frontEndText')}</p>
           </TextContainer>
 
           <BoxOfParts>
@@ -76,7 +77,7 @@ function Skills() {
         <BoxContainer>
           <TextContainer>
             <GoldTitleCustom>Design</GoldTitleCustom>
-            <p>Création de maquettes Figma.</p>
+            <p>{t('figmaText')}</p>
           </TextContainer>
           <BoxOfParts>
             <LeftPart>
@@ -104,11 +105,11 @@ function Skills() {
       <ImageAndBoxCustom>
         <BoxContainer>
           <TextContainer>
-            <GreenTitleCustom>Environnement de travail</GreenTitleCustom>
+            <GreenTitleCustom>{t('workingEnvironment')}</GreenTitleCustom>
           </TextContainer>
           <EnvInfos>
             <CustomTextLine>
-              <BoldText>système d'exploitation: </BoldText>Linux
+              <BoldText>{t('operatingSystem')} </BoldText>Linux
             </CustomTextLine>
 
             <CustomTextLine>

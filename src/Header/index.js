@@ -17,12 +17,11 @@ function Header() {
   return (
     <Container>
       <TextContainer>
-        <TextCustom>{t('job.name')}</TextCustom>
+        <TextCustom>{t('job')}</TextCustom>
         <SmallerTextCustom>
-          Actuellement à la recherche d'un nouvel emploi, je suis intéressée par
-          les postes de :
+          {t('introduction')}
           <SmallerTextCustom>
-            Développeuse front-end & Intégratrice web
+            {t('frontEndDev')} & {t('WebIntegrator')}
           </SmallerTextCustom>
         </SmallerTextCustom>
       </TextContainer>

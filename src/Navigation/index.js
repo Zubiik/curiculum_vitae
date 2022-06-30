@@ -1,8 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import NavButton from '../component/Button/Index';
 import { Container, TextCustom, ButtonsSection, TitleCustom } from './styled';
 
 function Navigation() {
+  const { t } = useTranslation();
+
   return (
     <Container>
       <TitleCustom>
@@ -15,17 +18,17 @@ function Navigation() {
 
         <NavButton>
           <a href="#portfolio">
-            <p>Portfolio</p>
+            <p>{t('portfolio')}</p>
           </a>
         </NavButton>
         <NavButton>
           <a href="#competences">
-            <p>Compétences</p>
+            <p>{t('competences')}</p>
           </a>
         </NavButton>
         <NavButton>
           <a href="#contact">
-            <p>Contactez moi</p>
+            <p>{t('contact')}</p>
           </a>
         </NavButton>
       </ButtonsSection>
