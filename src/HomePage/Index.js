@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Navigation from '../Navigation';
 import Header from '../Header';
 import { Container } from './styled';
@@ -10,23 +11,25 @@ import Footer from '../Footer';
 import Skills from '../Skills';
 
 function HomePage() {
+  const { t } = useTranslation();
   return (
     <Container>
       <Navigation />
       <Header />
       <div id="competences"></div>
-      <Title>COMPETENCES</Title>
+      <Title>{t('competences'.toUpperCase())}</Title>
       <Skills />
       {/* <div id="parcours"></div>
       <Title>PARCOURS</Title>
       <Studies /> */}
       <div id="portfolio"></div>
-      <Title>PORTFOLIO</Title>
+      <Title>{t('portfolio'.toUpperCase())}</Title>
       <Portfolio />
-      <Title>OUTILS</Title>
+      <div id="tools"></div>
+      <Title>{t('tools'.toUpperCase())}</Title>
       <Tools />
       <div id="contact"></div>
-      <Title>CONTACT</Title>
+      <Title>{t('contact'.toUpperCase())}</Title>
       <Contact />
       <Footer />
     </Container>

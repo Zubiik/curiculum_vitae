@@ -1,8 +1,8 @@
 import React from 'react';
 import { CustomButton } from './styled';
 
-function NavButton({ children }) {
+function Button({ children }) {
   return <CustomButton>{children}</CustomButton>;
 }
 
-export default NavButton;
+export default Button;

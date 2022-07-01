@@ -1,10 +1,13 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import NavButton from '../component/Button/Index';
+import Button from '../component/Button';
 import { Container, TextCustom, ButtonsSection, TitleCustom } from './styled';
 
 function Navigation() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const changeLanguageHandler = (lang) => {
+    i18n.changeLanguage(lang);
+  };
 
   return (
     <Container>
@@ -12,25 +15,28 @@ function Navigation() {
         <TextCustom>Elodie Frappat</TextCustom>
       </TitleCustom>
       <ButtonsSection>
-        {/* <NavButton >
-          <a href="#parcours"><p>Parcours</p></a>
-        </NavButton> */}
-
-        <NavButton>
+        <Button>
           <a href="#portfolio">
             <p>{t('portfolio')}</p>
           </a>
-        </NavButton>
-        <NavButton>
+        </Button>
+        <Button>
+          <a href="#tools">
+            <p>{t('tools')}</p>
+          </a>
+        </Button>
+        <Button>
           <a href="#competences">
             <p>{t('competences')}</p>
           </a>
-        </NavButton>
-        <NavButton>
+        </Button>
+        <Button>
           <a href="#contact">
             <p>{t('contact')}</p>
           </a>
-        </NavButton>
+        </Button>
+        <button onClick={() => changeLanguageHandler('fr')}>fr</button>
+        <button onClick={() => changeLanguageHandler('en')}>en</button>
       </ButtonsSection>
     </Container>
   );
