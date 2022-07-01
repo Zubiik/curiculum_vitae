@@ -3,7 +3,13 @@ import { useTranslation } from 'react-i18next';
 import Button from '../component/Button';
 import SvgfRFlag from '../images/SvgFRFlag';
 import SvgGBFlag from '../images/SvgGBFlag';
-import { Container, TextCustom, ButtonsSection, TitleCustom } from './styled';
+import {
+  Container,
+  TextCustom,
+  ButtonsSection,
+  TitleCustom,
+  LanguageButton,
+} from './styled';
 
 function Navigation() {
   const { t, i18n } = useTranslation();
@@ -18,7 +24,7 @@ function Navigation() {
       </TitleCustom>
       <ButtonsSection>
         <Button>
-          <a Buttonhref="#portfolio">
+          <a href="#portfolio">
             <p>{t('portfolio')}</p>
           </a>
         </Button>
@@ -38,12 +44,12 @@ function Navigation() {
           </a>
         </Button>
         <div>
-          <div onClick={() => changeLanguageHandler('fr')}>
+          <LanguageButton onClick={() => changeLanguageHandler('fr')}>
             <SvgfRFlag />
-          </div>
-          <div onClick={() => changeLanguageHandler('en')}>
+          </LanguageButton>
+          <LanguageButton onClick={() => changeLanguageHandler('en')}>
             <SvgGBFlag />
-          </div>
+          </LanguageButton>
         </div>
       </ButtonsSection>
     </Container>
