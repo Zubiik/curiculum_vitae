@@ -14,11 +14,11 @@ function Studies() {
             reconvertir dans le métier de développeuse web. En une année de
             formation j’ai pu me penché sur /voir/ front end quelque notion en
             Design environnement de test.
-            <p>
-              Pour mon apprentissage j’ai pu me servir de cours en ligne tel que
-              open classroom udemy et en parrallèle réaliser des projets
-              personnel visible dans mon porfolio.
-            </p>
+          </p>
+          <p>
+            Pour mon apprentissage j’ai pu me servir de cours en ligne tel que
+            open classroom udemy et en parrallèle réaliser des projets personnel
+            visible dans mon porfolio.
           </p>
         </BoxCustom>
       </ParcoursContainer>

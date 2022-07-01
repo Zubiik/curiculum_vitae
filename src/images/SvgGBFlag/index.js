@@ -6,6 +6,7 @@ const SvgGBFlag = (props) => (
     height={16}
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    // eslint-disable-next-line react/jsx-props-no-spreading
     {...props}
   >
     <g clipPath="url(#a)">
