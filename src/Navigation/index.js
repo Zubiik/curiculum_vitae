@@ -1,6 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Button from '../component/Button';
+import SvgfRFlag from '../images/SvgFRFlag';
+import SvgGBFlag from '../images/SvgGBFlag';
 import { Container, TextCustom, ButtonsSection, TitleCustom } from './styled';
 
 function Navigation() {
@@ -16,7 +18,7 @@ function Navigation() {
       </TitleCustom>
       <ButtonsSection>
         <Button>
-          <a href="#portfolio">
+          <a Buttonhref="#portfolio">
             <p>{t('portfolio')}</p>
           </a>
         </Button>
@@ -35,8 +37,14 @@ function Navigation() {
             <p>{t('contact')}</p>
           </a>
         </Button>
-        <button onClick={() => changeLanguageHandler('fr')}>fr</button>
-        <button onClick={() => changeLanguageHandler('en')}>en</button>
+        <div>
+          <div onClick={() => changeLanguageHandler('fr')}>
+            <SvgfRFlag />
+          </div>
+          <div onClick={() => changeLanguageHandler('en')}>
+            <SvgGBFlag />
+          </div>
+        </div>
       </ButtonsSection>
     </Container>
   );
