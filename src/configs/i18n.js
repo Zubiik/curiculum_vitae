@@ -13,6 +13,7 @@ i18n
           job: 'Web developer',
           frontEndDev: 'Front-end developer',
           WebIntegrator: 'Web Integrator',
+          tools: 'Tools',
           introduction:
             // eslint-disable-next-line max-len
             'Currently looking for a new job, I am interested by:',
@@ -32,6 +33,7 @@ i18n
           job: 'Développeuse web',
           frontEndDev: 'Développeuse front-End',
           WebIntegrator: 'Intégratrice web',
+          tools: 'Outils',
           introduction:
             // eslint-disable-next-line max-len
             "Actuellement à la recherche d'un nouvel emploi, je suis intéressée par les postes de :",
