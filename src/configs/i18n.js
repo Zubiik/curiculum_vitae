@@ -39,7 +39,7 @@ i18n
             "Actuellement à la recherche d'un nouvel emploi, je suis intéressée par les postes de :",
           portfolio: 'Portfolio',
           competences: 'Compétences',
-          contact: 'Contactez moi',
+          contact: 'Contact',
           figmaText: 'Création de maquettes Figma.',
           workingEnvironment: 'Environnement de travail',
           operatingSystem: "Système d'exploitation:",

@@ -37,3 +37,7 @@ export const TitleCustom = styled.div`
     display: none;
   }
 `;
+export const LanguageButton = styled.div`
+  cursor: pointer;
+  margin: 4px;
+`;
