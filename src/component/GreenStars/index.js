@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Container, CustomStar, FillCustom } from './styled';
 
 function GreenStars({ level }) {
@@ -7,5 +8,7 @@ function GreenStars({ level }) {
   });
   return <Container>{doubled}</Container>;
 }
-
+GreenStars.propTypes = {
+  level: PropTypes.arrayOf(PropTypes.number).isRequired,
+};
 export default GreenStars;

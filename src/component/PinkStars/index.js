@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import { Container, StarCustom, FillCustom } from './styled';
 
 function PinkStars({ level }) {
@@ -11,5 +13,7 @@ function PinkStars({ level }) {
   });
   return <Container>{doubled}</Container>;
 }
-
+PinkStars.propTypes = {
+  level: PropTypes.arrayOf(PropTypes.number).isRequired,
+};
 export default PinkStars;

@@ -1,5 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import { Container } from './styled';
 
 function Star({ className }) {
@@ -24,5 +26,7 @@ function Star({ className }) {
     </Container>
   );
 }
-
+Star.propTypes = {
+  className: PropTypes.string.isRequired,
+};
 export default Star;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Square, ZoomSquare, TextSquare } from './styled';
 
 function SkillSquare({ className, label, image, link }) {
@@ -9,5 +10,11 @@ function SkillSquare({ className, label, image, link }) {
     </Square>
   );
 }
+SkillSquare.propTypes = {
+  className: PropTypes.string,
+  label: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+};
 
 export default SkillSquare;

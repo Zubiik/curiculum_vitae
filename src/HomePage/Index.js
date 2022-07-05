@@ -19,9 +19,6 @@ function HomePage() {
       <div id="competences"></div>
       <Title>{t('competences'.toUpperCase())}</Title>
       <Skills />
-      {/* <div id="parcours"></div>
-      <Title>PARCOURS</Title>
-      <Studies /> */}
       <div id="portfolio"></div>
       <Title>{t('portfolio'.toUpperCase())}</Title>
       <Portfolio />

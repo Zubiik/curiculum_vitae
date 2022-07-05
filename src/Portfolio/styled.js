@@ -34,14 +34,14 @@ export const SectionWithoutShadowContainer = styled.div`
   }
 `;
 
-export const LeftTextSection = styled.p`
+export const LeftTextSection = styled.div`
   margin-left: 40px;
   @media all and (max-width: 480px) {
     text-align: left;
     margin-left: unset;
   }
 `;
-export const RightTextSection = styled.p`
+export const RightTextSection = styled.div`
   margin-right: 40px;
   text-align: right;
   @media all and (max-width: 480px) {

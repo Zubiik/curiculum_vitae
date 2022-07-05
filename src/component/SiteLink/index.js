@@ -1,5 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import siteIcon from '../../images/siteIcon.png';
+
 import { SiteIconCustom } from './styled';
 
 function SiteLink({ link }) {
@@ -9,5 +11,7 @@ function SiteLink({ link }) {
     </a>
   );
 }
-
+SiteLink.propTypes = {
+  link: PropTypes.string.isRequired,
+};
 export default SiteLink;

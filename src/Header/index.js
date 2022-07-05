@@ -18,11 +18,9 @@ function Header() {
     <Container>
       <TextContainer>
         <TextCustom>{t('job')}</TextCustom>
+        <SmallerTextCustom>{t('introduction')}</SmallerTextCustom>
         <SmallerTextCustom>
-          {t('introduction')}
-          <SmallerTextCustom>
-            {t('frontEndDev')} & {t('WebIntegrator')}
-          </SmallerTextCustom>
+          {t('frontEndDev')} & {t('WebIntegrator')}
         </SmallerTextCustom>
       </TextContainer>
       <ProfilPicture src={pdp} alt="PDP" />
