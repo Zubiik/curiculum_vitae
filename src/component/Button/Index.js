@@ -5,6 +5,7 @@ import { CustomButton } from './styled';
 function Button({ children }) {
   return <CustomButton>{children}</CustomButton>;
 }
+
 Button.propTypes = {
   children: PropTypes.element.isRequired,
 };
