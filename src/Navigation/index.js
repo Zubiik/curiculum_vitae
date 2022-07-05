@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Button from '../component/Button';
+import Button from '../component/Button/index';
 import SvgfRFlag from '../images/SvgFRFlag';
 import SvgGBFlag from '../images/SvgGBFlag';
 import {
