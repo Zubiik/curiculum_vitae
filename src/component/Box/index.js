@@ -6,7 +6,7 @@ function Box({ className, children }) {
   return <Container className={className}>{children}</Container>;
 }
 Box.propTypes = {
-  children: PropTypes.arrayOf(PropTypes.number),
+  children: PropTypes.arrayOf(PropTypes.element),
   className: PropTypes.string,
 };
 export default Box;
