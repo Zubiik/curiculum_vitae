@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <Container>
       <BoxCustom>
-        <TextCustom>Vous souhaitez me rencontrer?</TextCustom>
+        <TextCustom>Vous souhaitez me rencontrer ?</TextCustom>
         <GreyTextCustom> Chamonix et alentours</GreyTextCustom>
       </BoxCustom>
       <GreenBoxCustom>
