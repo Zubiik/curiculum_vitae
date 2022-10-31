@@ -1,9 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import SiteLink from '../component/SiteLink';
 import netflixLike from '../images/netflixLike.png';
 import authentic from '../images/authentic-ICON.png';
 import pokedex from '../images/Pokedex-ICON.png';
+
 import {
   Container,
   ImgCustom,
@@ -21,6 +23,8 @@ import {
 } from './styled';
 
 function Portfolio() {
+  const { t } = useTranslation();
+
   return (
     <Container>
       <SectionContainer>
@@ -30,7 +34,7 @@ function Portfolio() {
             <TextCustom>MDMB Frontend</TextCustom>
             <SiteLink link={'https://netflix-copy-xi.vercel.app/'} />
 
-            <p>Site web herbergé via Vercel listant des films.</p>
+            <p>{t('mdmbText')}</p>
             <ContainerTechno>
               <TechnoCustom>React</TechnoCustom>
               <TechnoCustom>Storybook</TechnoCustom>
@@ -46,11 +50,7 @@ function Portfolio() {
         <SectionWithoutShadowContainer>
           <RightTextSection>
             <TextCustom>Pokedex</TextCustom>
-            <p>
-              Page web copiant le pokedex du jeu Pokémon. Permet de connaitre
-              différentes informations d'un pokémon tel que ses statistiques de
-              combat, ses évolutions ect...
-            </p>
+            <p>{t('pokedex')}</p>
             <ContainerTechnoRight>
               <RightTechnoCustom>React</RightTechnoCustom>
               <RightTechnoCustom>Figma</RightTechnoCustom>
@@ -66,10 +66,7 @@ function Portfolio() {
           <LeftTextSection>
             <TextCustom>Authentic fleurs</TextCustom>
             <SiteLink link={'https://www.authenticfleurs.com/'} />
-
-            <p>
-              Site web commercant créer via la plateforme Wix pour un fleuriste.
-            </p>
+            <p>{t('authenticText')}</p>
             <TechnoCustom>Wix</TechnoCustom>
           </LeftTextSection>
         </SectionShadowContainer>

@@ -26,6 +26,17 @@ i18n
           frontEndText:
             // eslint-disable-next-line max-len
             'Development of the front-end part of websites and mobile applications.',
+          mdmbText:
+            // eslint-disable-next-line max-len
+            "Site web herbergé via Vercel.J'ai utilisée l'API MDMB afin de recréer certaines fonctionnalitées d'un site de streaming.",
+          pokedex:
+            // eslint-disable-next-line max-len
+            'Pokedex',
+          authenticText:
+            // eslint-disable-next-line max-len
+            'Web site for a fleurist with Wix platform',
+          contactText: 'You want a meeting?',
+          surroundings: '',
         },
       },
       fr: {
@@ -46,6 +57,17 @@ i18n
           frontEndText:
             // eslint-disable-next-line max-len
             'Développement de la partie front-end de sites internet et applications mobiles.',
+          mdmbText:
+            // eslint-disable-next-line max-len
+            "Site web herbergé via Vercel.J'ai utilisée l'API MDMB afin de recréer certaines fonctionnalitées d'un site de streaming.",
+          pokedex:
+            // eslint-disable-next-line max-len
+            'Page web copiant le pokedex du jeu Pokémon. Permet de connaitre différentes informations d un pokémon tel que ses statistiques de combat ses évolutions ect....',
+          authenticText:
+            // eslint-disable-next-line max-len
+            'Site web commercant créer via la plateforme Wix pour un fleuriste.',
+          contactText: 'Vous souhaitez me rencontrer ?',
+          surroundings: 'et alentours',
         },
       },
     },

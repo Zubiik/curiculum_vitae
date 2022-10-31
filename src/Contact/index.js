@@ -1,5 +1,6 @@
 import React from 'react';
 import tippy from 'tippy.js';
+import { useTranslation } from 'react-i18next';
 import {
   ImageCustom,
   PinkBoxCustom,
@@ -15,6 +16,7 @@ import phoneIcon from '../images/phoneIcon.png';
 import mailIcon from '../images/mailIcon.png';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const textToCopy = 'elodiefrappat08@gmail.com';
   const phoneToCopy = '06.25.09.99.12';
 
@@ -29,8 +31,8 @@ const Contact = () => {
   return (
     <Container>
       <BoxCustom>
-        <TextCustom>Vous souhaitez me rencontrer ?</TextCustom>
-        <GreyTextCustom> Chamonix et alentours</GreyTextCustom>
+        <TextCustom>{t('contactText')}</TextCustom>
+        <GreyTextCustom> Chamonix {t('surroundings')}</GreyTextCustom>
       </BoxCustom>
       <GreenBoxCustom>
         <ImageCustom>
