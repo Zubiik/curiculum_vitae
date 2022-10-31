@@ -50,6 +50,7 @@ function Portfolio() {
         <SectionWithoutShadowContainer>
           <RightTextSection>
             <TextCustom>Pokedex</TextCustom>
+            <SiteLink link={'https://pokedex-psi-taupe.vercel.app/'} />
             <p>{t('pokedex')}</p>
             <ContainerTechnoRight>
               <RightTechnoCustom>React</RightTechnoCustom>
