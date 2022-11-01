@@ -8,7 +8,7 @@ import {
   ProfilPicture,
   SmallerTextCustom,
 } from './styled';
-import pdp from '../images/photo.jpg';
+import avatar from '../images/avatar.png';
 import '../configs/i18n';
 
 function Header() {
@@ -23,7 +23,7 @@ function Header() {
           {t('frontEndDev')} & {t('WebIntegrator')}
         </SmallerTextCustom>
       </TextContainer>
-      <ProfilPicture src={pdp} alt="PDP" />
+      <ProfilPicture src={avatar} alt="PDP" />
     </Container>
   );
 }
