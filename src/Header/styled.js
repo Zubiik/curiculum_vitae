@@ -23,8 +23,7 @@ export const TextContainer = styled.div`
   }
 `;
 
-export const ProfilPicture = styled.img`
-`;
+export const ProfilPicture = styled.img``;
 
 export const TextCustom = styled.div`
   color: ${({ theme }) => theme.colors.copperRed};
