@@ -43,11 +43,11 @@ function Skills() {
             <LeftPart>
               <StarsContainer>
                 <SkillLabel>React</SkillLabel>
-                <PinkStars level={[1, 2, 3, 4, null]} />
+                <PinkStars level={[1, 2, 3, null, null]} />
               </StarsContainer>
               <StarsContainer>
                 <SkillLabel>Html 5</SkillLabel>
-                <PinkStars level={[1, 2, 3, 4, 5]} />
+                <PinkStars level={[1, 2, 3, 4, null]} />
               </StarsContainer>
               <StarsContainer>
                 <SkillLabel>Javascript</SkillLabel>
@@ -57,7 +57,7 @@ function Skills() {
             <RightPart>
               <StarsContainer>
                 <SkillLabel>React native</SkillLabel>
-                <PinkStars level={[1, 2, 3, 4, null]} />
+                <PinkStars level={[1, 2, null, null, null]} />
               </StarsContainer>
               <StarsContainer>
                 <SkillLabel>React testing library</SkillLabel>
