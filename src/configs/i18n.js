@@ -25,17 +25,17 @@ i18n
           operatingSystem: 'Operating system',
           frontEndText:
             // eslint-disable-next-line max-len
-            'Development of the front-end part of websites and mobile applications.',
+            'front end developement of websites and mobile applications.',
           mdmbText:
             // eslint-disable-next-line max-len
-            "Site web herbergé via Vercel.J'ai utilisée l'API MDMB afin de recréer certaines fonctionnalitées d'un site de streaming.",
+            'Hosted website on Vercel. I have used API MDMB to recreate some features from streaming websites.',
           pokedex:
             // eslint-disable-next-line max-len
-            'Pokedex',
+            ' Web page based on the Pokémon game allows you to know different informations about Pokémon, such as combat stats, development etc.. »',
           authenticText:
             // eslint-disable-next-line max-len
-            'Web site for a fleurist with Wix platform',
-          contactText: 'You want a meeting?',
+            'Merchant website created with the Wix platform for a florist.',
+          contactText: 'Based in Ardeche',
           surroundings: '',
         },
       },
@@ -66,8 +66,7 @@ i18n
           authenticText:
             // eslint-disable-next-line max-len
             'Site web commercant créer via la plateforme Wix pour un fleuriste.',
-          contactText: 'Vous souhaitez me rencontrer ?',
-          surroundings: 'et alentours',
+          contactText: 'Actuellement en Ardeche',
         },
       },
     },

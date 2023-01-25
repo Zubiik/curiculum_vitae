@@ -109,7 +109,7 @@ function Skills() {
           </TextContainer>
           <EnvInfos>
             <CustomTextLine>
-              <BoldText>{t('operatingSystem')} </BoldText>Linux
+              <BoldText>{t('operatingSystem')} </BoldText>MacOS
             </CustomTextLine>
 
             <CustomTextLine>

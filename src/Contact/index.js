@@ -10,7 +10,6 @@ import {
   InlineTextCustom,
   GreenTextCustom,
   TextCustom,
-  GreyTextCustom,
 } from './styled';
 import phoneIcon from '../images/phoneIcon.png';
 import mailIcon from '../images/mailIcon.png';
@@ -32,7 +31,6 @@ const Contact = () => {
     <Container>
       <BoxCustom>
         <TextCustom>{t('contactText')}</TextCustom>
-        <GreyTextCustom> Chamonix {t('surroundings')}</GreyTextCustom>
       </BoxCustom>
       <GreenBoxCustom>
         <ImageCustom>
