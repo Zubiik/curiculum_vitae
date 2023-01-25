@@ -31,7 +31,7 @@ i18n
             'Hosted website on Vercel. I have used API MDMB to recreate some features from streaming websites.',
           pokedex:
             // eslint-disable-next-line max-len
-            ' Web page based on the Pokémon game allows you to know different informations about Pokémon, such as combat stats, development etc.. »',
+            ' Web page based on the Pokemon game allows you to know different informations about Pokémon, such as combat stats, development etc.. »',
           authenticText:
             // eslint-disable-next-line max-len
             'Merchant website created with the Wix platform for a florist.',
