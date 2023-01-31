@@ -8,7 +8,6 @@ export const Container = styled.div`
   align-items: center;
   min-height: 500px;
   @media all and (max-width: 480px) {
-    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -23,7 +22,11 @@ export const TextContainer = styled.div`
   }
 `;
 
-export const ProfilPicture = styled.img``;
+export const ProfilPicture = styled.img`
+  @media all and (max-width: 480px) {
+    width: 80%;
+  }
+`;
 
 export const TextCustom = styled.div`
   color: ${({ theme }) => theme.colors.copperRed};
