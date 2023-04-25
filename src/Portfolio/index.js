@@ -5,6 +5,7 @@ import SiteLink from '../component/SiteLink';
 import netflixLike from '../images/netflixLike.png';
 import authentic from '../images/authentic-ICON.png';
 import pokedex from '../images/Pokedex-ICON.png';
+import helloMeteo from '../images/helloMeteo.png';
 
 import {
   Container,
@@ -72,6 +73,25 @@ function Portfolio() {
           </LeftTextSection>
         </SectionShadowContainer>
       </SectionContainer>
+      <RightSectionContainer>
+        <SectionWithoutShadowContainer>
+          <RightTextSection>
+            <TextCustom>Hello Météo</TextCustom>
+            <SiteLink
+              link={
+                'https://widget-meteo-elodie-aclpykxkl-phroton-meteo.vercel.app/'
+              }
+            />
+            <p>application pour connaitre la météo du jour</p>
+            <ContainerTechnoRight>
+              <RightTechnoCustom>React</RightTechnoCustom>
+              <RightTechnoCustom>Type Script</RightTechnoCustom>
+              <RightTechnoCustom>Axios</RightTechnoCustom>
+            </ContainerTechnoRight>
+          </RightTextSection>
+          <ImgCustom src={helloMeteo} alt="podexView" />
+        </SectionWithoutShadowContainer>
+      </RightSectionContainer>
     </Container>
   );
 }
