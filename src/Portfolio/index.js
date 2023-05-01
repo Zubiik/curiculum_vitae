@@ -78,13 +78,12 @@ function Portfolio() {
           <RightTextSection>
             <TextCustom>Hello Météo</TextCustom>
             <SiteLink
-              link={
-                'https://widget-meteo-elodie-aclpykxkl-phroton-meteo.vercel.app/'
-              }
+              link={'https://widget-meteo-elodie-78h6pbksw-zubiik.vercel.app/'}
             />
             <p>application pour connaitre la météo du jour</p>
             <ContainerTechnoRight>
               <RightTechnoCustom>React</RightTechnoCustom>
+              <RightTechnoCustom>Vite</RightTechnoCustom>
               <RightTechnoCustom>Type Script</RightTechnoCustom>
               <RightTechnoCustom>Axios</RightTechnoCustom>
             </ContainerTechnoRight>
